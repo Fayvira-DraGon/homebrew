@@ -1,0 +1,418 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "FHR",
+				"abbreviation": "FHR",
+				"full": "Fayvira's Homebrews & Rules",
+				"version": "1.0.0",
+				"url": "https://github.com/Fayvira-DraGon/homebrew/tree/master",
+				"authors": [
+					"Fayvira"
+				]
+			}
+		]
+	},
+	"monster": [
+		{
+			"name": "Blyana Curtis (Dire Werewolf)",
+			"source": "FHR",
+			"group": [
+				"Lycanthropes"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "human",
+						"prefix": "female"
+					},
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"unarmored defense"
+					],
+					"condition": "in humanoid form"
+				},
+				{
+					"ac": 17,
+					"from": [
+						"natural armor",
+						"unarmored defense"
+					],
+					"condition": "in dire wolf or hybrid form"
+				}
+			],
+			"hp": {
+				"formula": "15d10 - 15",
+				"average": 67
+			},
+			"speed": {
+				"walk": {
+					"number": 45,
+					"condition": "(55 ft. in dire wolf form)"
+				}
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 9,
+			"int": 14,
+			"wis": 16,
+			"cha": 11,
+			"skill": {
+				"history": "+5",
+				"perception": "+9",
+				"stealth": "+6"
+			},
+			"passive": 19,
+			"immune": [
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't silvered",
+					"cond": true
+				}
+			],
+			"cr": "7",
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"Blyana can use her action to polymorph into a dire wolf-humanoid hybrid or into a dire wolf, or back into her true form, which is humanoid. Her statistics, other than her AC, are the same in each form. Any equipment she is wearing or carrying isn't transformed. She reverts to her true form if she dies."
+					]
+				},
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"Blyana has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Stunning Strike  {@recharge 5}",
+					"entries": [
+						"When Blyana hits a target with a melee weapon attack, the target must succeed on a {@dc 14} Constitution saving throw or be {@condition stunned} until the end of Blyana's next turn."
+					]
+				},
+				{
+					"name": "Unarmored Defense",
+					"entries": [
+						"While Blyana is wearing no armor and wielding no shield, her AC includes her Wisdom modifier."
+					]
+				},
+				{
+					"name": "Unarmored Movement",
+					"entries": [
+						"While Blyana is wearing no armor and wielding no shield, her speed increases by 15 feet (included in her speed)."
+					]
+				},
+				{
+					"name": "Speak with Wolves",
+					"entries": [
+						"Blyana can communicate with wolves as if they shared a language."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack (Humanoid or Hybrid Form Only)",
+					"entries": [
+						"Blyana makes two attacks, only one of which can be a bite."
+					]
+				},
+				{
+					"name": "Bite (Dire Wolf or Hybrid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) piercing damage. If the target is a humanoid, it must succeed on a {@dc 10} Constitution saving throw or be cursed with werewolf lycanthropy. This is a magic and silvered weapon attack."
+					]
+				},
+				{
+					"name": "Claws (Hybrid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 4d4 + 3}) slashing damage. This is a magic weapon attack."
+					]
+				},
+				{
+					"name": "+1 Silvered Knuckles (Humanoid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Astral Unarmed Strike (Arms of the Astral Self Only)",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft. or 10 ft., one target. {@h}6 ({@damage 1d6 + 3}) force damage. This is a magic weapon attack."
+					]
+				},
+				{
+					"name": "Quickened Healing {@recharge 6}",
+					"entries": [
+						"Blyana regains 6 ({@damage 1d6 + 3}) hit points"
+					]
+				},
+				{
+					"name": "Unarmed Strike",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage. This is a magic weapon attack."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses",
+				"Shapechanger"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"CUR",
+				"RW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"A werewolf is a savage predator. In its humanoid form, a werewolf has heightened senses, a fiery temper, and a tendency to eat rare meat. Its wolf form is a fearsome predator, but its hybrid form is more terrifying by far-a furred and well-muscled humanoid body topped by a ravening wolf's head. A werewolf can wield weapons in hybrid form, though it prefers to tear foes apart with its powerful claws and bite.",
+									"Most werewolves flee civilized lands not long after becoming afflicted. Those that reject the curse fear what will happen if they remain among their friends and family. Those that embrace the curse fear discovery and the consequences of their murderous acts. In the wild, werewolves form packs that also include wolves and dire wolves."
+								]
+							},
+							{
+								"type": "insetReadaloud",
+								"entries": [
+									{
+										"type": "quote",
+										"entries": [
+											"The Company of the Black Moon—they used to be adventurers loyal to the realm. Now they roam the woods as a pack of werewolves. The king has promised estates, titles, and gold to anyone who can undo the curse afflicting them. I, for one, have no interest in such rewards."
+										],
+										"by": "Thornstaff, elf druid"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "section",
+						"name": "Lycanthropes",
+						"entries": [
+							"One of the most ancient and feared of all curses, lycanthropy can transform the most civilized humanoid into a ravening beast. In its natural humanoid form, a creature cursed by lycanthropy appears as its normal self. Over time, however, many lycanthropes acquire features suggestive of their animal form. In that animal form, a lycanthrope resembles a powerful version of a normal animal. On close inspection, its eyes show a faint spark of unnatural intelligence and might glow red in the dark.",
+							"Evil lycanthropes hide among normal folk, emerging in animal form at night to spread terror and bloodshed, especially under a full moon. Good lycanthropes are reclusive and uncomfortable around other civilized creatures, often living alone in wilderness areas far from villages and towns.",
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Curse of Lycanthropy",
+										"entries": [
+											"A humanoid creature can be afflicted with the curse of lycanthropy after being wounded by a lycanthrope, or if one or both of its parents are lycanthropes. A {@spell remove curse} spell can rid an afflicted lycanthrope of the curse, but a natural born lycanthrope can be freed of the curse only with a wish.",
+											"A lycanthrope can either resist its curse or embrace it. By resisting the curse, a lycanthrope retains its normal alignment and personality while in humanoid form. It lives its life as it always has, burying deep the bestial urges raging inside it. However, when the full moon rises, the curse becomes too strong to resist, transforming the individual into its beast form-or into a horrible hybrid form that combines animal and humanoid traits. When the moon wanes, the beast within can be controlled once again. Especially if the cursed creature is unaware of its condition, it might not remember the events of its transformation, though those memories often haunt a lycanthrope as bloody dreams.",
+											"Some individuals see little point in fighting the curse and accept what they are. With time and experience, they learn to master their shapechanging ability and can assume beast form or hybrid form at will. Most lycanthropes that embrace their bestial natures succumb to bloodlust, becoming evil, opportunistic creatures that prey on the weak."
+										]
+									}
+								]
+							},
+							{
+								"type": "inset",
+								"name": "Player Characters as Lycanthropes",
+								"entries": [
+									"A character who becomes a lycanthrope retains his or her statistics except as specified by lycanthrope type. The character gains the lycanthrope's speeds in non-humanoid form, damage immunities, traits, and actions that don't involve equipment. The character is proficient with the lycanthrope's natural attacks, such as its bite or claws, which deal damage as shown in the lycanthrope's statistics. The character can't speak while in animal form.",
+									"A non-lycanthrope humanoid hit by an attack that carries the curse of lycanthropy must succeed on a Constitution saving throw (DC 8 + the lycanthrope's proficiency bonus + the lycanthrope's Constitution modifier) or be cursed. If the character embraces the curse, his or her alignment becomes the one defined for the lycanthrope. The DM is free to decide that a change in alignment places the character under DM control until the curse of lycanthropy is removed.",
+									"The following information applies to specific lycanthropes.",
+									{
+										"type": "entries",
+										"entries": [
+											{
+												"type": "entries",
+												"name": "{@creature Werebear}",
+												"entries": [
+													"The character gains a Strength of 19 if his or her score isn't already higher, and a +1 bonus to AC while in bear or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "{@creature Wereboar}",
+												"entries": [
+													"The character gains a Strength of 17 if his or her score isn't already higher, and a +1 bonus to AC while in boar or hybrid form (from natural armor). Attack and damage rolls for the tusks are based on Strength. For the Charge trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "{@creature Wererat}",
+												"entries": [
+													"The character gains a Dexterity of 15 if his or her score isn't already higher. Attack and damage rolls for the bite are based on whichever is higher of the character's Strength and Dexterity."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "{@creature Weretiger}",
+												"entries": [
+													"The character gains a Strength of 17 if his or her score isn't already higher. Attack and damage rolls for the natural weapons are based on Strength. For the Pounce trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "{@creature Werewolf}",
+												"entries": [
+													"The character gains a Strength of 15 if his or her score isn't already higher, and a +1 bonus to AC while in wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/T9mzKfL.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/gxDy5AT.png"
+						}
+					}
+				]
+			},
+			"save": {
+				"str": "+6",
+				"dex": "+6"
+			},
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from attacks that aren't magical and silvered",
+					"cond": true
+				}
+			],
+			"bonus": [
+				{
+					"name": "Arms of the Astral Self {@recharge 5}",
+					"entries": [
+						"Blyana summons spectral arms that hover near her shoulders for 10 minutes, and they vanish if she is {@condition incapacitated} or dies.",
+						"Each creature of Blyana's choice that she can see within 10 feet of her must succeed on a {@dc 14} Dexterity saving throw or take 9 ({@damage 2d8}) force damage.",
+						"Blyana can use her Wisdom in place of her Strength when making Strength checks/saving throws."
+					]
+				},
+				{
+					"name": "Flurry of Blows {@recharge 5}",
+					"entries": [
+						"Immediately after taking the Attack action on her turn, Blyana makes two Unarmed Strikes."
+					]
+				},
+				{
+					"name": "Martial Arts",
+					"entries": [
+						"Immediately after taking the Attack action on her turn, Blyana makes one Unarmed Strike."
+					]
+				},
+				{
+					"name": "Patient Defense {@recharge 5}",
+					"entries": [
+						"Blyana takes the Dodge action."
+					]
+				},
+				{
+					"name": "Step of the Wind {@recharge 5}",
+					"entries": [
+						"Blyana takes the Disengage or Dash action, and her jump distance is doubled for the turn."
+					]
+				},
+				{
+					"name": "Visage of the Astral Self {@recharge 5}",
+					"entries": [
+						"Blyana summons a spectral mask that covers her face for 10 minutes, and it vanishes if she is {@condition incapacitated} or dies.",
+						"While Blyana's spectral visage is present, she gains the following benefits:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Astral Sight",
+									"entry": "Blyana can see normally in darkness, both magical and nonmagical, to a distance of 120 feet."
+								},
+								{
+									"type": "item",
+									"name": "Wisdom of the Spirit",
+									"entry": "Blyana has advantage on Wisdom (Insight) and Charisma (Intimidation) checks."
+								},
+								{
+									"type": "item",
+									"name": "Word of the Spirit",
+									"entry": "When Blyana speaks, she can direct her words to a creature of her choice that she can see within 60 feet of her, making it so only that creature can hear her. Alternatively, she can amplify her voice so that all creatures within 600 feet can hear her."
+								}
+							]
+						}
+					]
+				}
+			],
+			"shortName": "Blyana",
+			"reaction": [
+				{
+					"name": "Deflect Missiles {@recharge 5}",
+					"entries": [
+						"When Blyana is hit by a ranged weapon attack, she reduces the damage from the attack by {@dice 1d10 + 9}. If the damage is reduced to 0, Blyana can catch the missile if it is small enough to hold in one hand and she has at least one hand free. If she catches the missile in this way she can make a ranged weapon attack with the weapon or piece of ammunition she just caught.",
+						"<em><strong>Deflect Missile.</strong></em> {@atk rw} {@hit 6} to hit, range 20/60 ft., one creature. {@h}6 ({@damage 1d6 + 3}) respective damage."
+					]
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://i.imgur.com/l6YRp1L.png"
+			},
+			"page": 1,
+			"isNpc": true,
+			"conditionInflict": [
+				"stunned"
+			],
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"damageTags": [
+				"B",
+				"O",
+				"P",
+				"S"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity"
+			]
+		}
+	]
+}
