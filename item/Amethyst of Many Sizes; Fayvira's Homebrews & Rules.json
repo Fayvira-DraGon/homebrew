@@ -21,7 +21,7 @@
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
-				"Etched with primordial runes, this 1-inch-diameter uncut amethyst allows you to use an action to change the size of {@filter a weapon or a set of armor|items|type=martial weapon;simple weapon;light armor;medium armor;heavy armor}. For this property to work, you must attach the amethyst to the weapon by pressing the amethyst against it for at least 10 minutes. Thereafter, the amethyst can't be removed unless you detach it as an action or the weapon is destroyed. Not even an {@spell antimagic field} causes it to fall off. The amethyst does fall off the weapon if your attunement to the amethyst ends. A weapon returns to its original size if the amethyst is no longer attached to it."
+				"Etched with primordial runes, this 1-inch-diameter uncut amethyst allows you to use an action to change the size of {@filter a weapon or a set of armor|items|type=simple weapon;light armor;martial weapon;heavy armor;medium armor|category=}. For this property to work, you must attach the amethyst to the weapon or armor by pressing the amethyst against it for at least 10 minutes. Thereafter, the amethyst can't be removed unless you detach it as an action or the item is destroyed. Not even an {@spell antimagic field} causes it to fall off. The amethyst does fall off the weapon or armor if your attunement to the amethyst ends. A weapon or set of armor returns to its original size if the amethyst is no longer attached to it."
 			]
 		}
 	]
