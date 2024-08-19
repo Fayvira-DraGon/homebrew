@@ -255,13 +255,6 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://i.imgur.com/E0d4pdd.png"
-						}
-					},
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
 							"url": "https://i.imgur.com/hFq5VGp.png"
 						}
 					},
@@ -269,7 +262,14 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://i.imgur.com/Pq0HjTl.png"
+							"url": "https://i.imgur.com/f3PhnxL.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/S9h0zJj.png"
 						}
 					}
 				]
