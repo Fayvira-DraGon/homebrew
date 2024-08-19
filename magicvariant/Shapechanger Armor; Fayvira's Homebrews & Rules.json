@@ -27,7 +27,7 @@
 				"source": "FHR",
 				"rarity": "rare",
 				"entries": [
-					"When you transform or polymorph into another creature, and your new form can wear armor or barding, this armor does not meld into your new form, instead it changes size and shape to fit your new form. If you doff this armor, or revert to your true form, it returns to its original size and shape."
+					"When you transform or polymorph into another creature, if your new form can wear armor or barding, this armor does not meld into your new form, instead it changes size and shape to fit your new form. If you doff this armor, or revert to your true form, it returns to its original size and shape."
 				]
 			}
 		}
