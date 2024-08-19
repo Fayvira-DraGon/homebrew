@@ -223,55 +223,6 @@
 										]
 									}
 								]
-							},
-							{
-								"type": "inset",
-								"name": "Player Characters as Lycanthropes",
-								"entries": [
-									"A character who becomes a lycanthrope retains his or her statistics except as specified by lycanthrope type. The character gains the lycanthrope's speeds in non-humanoid form, damage immunities, traits, and actions that don't involve equipment. The character is proficient with the lycanthrope's natural attacks, such as its bite or claws, which deal damage as shown in the lycanthrope's statistics. The character can't speak while in animal form.",
-									"A non-lycanthrope humanoid hit by an attack that carries the curse of lycanthropy must succeed on a Constitution saving throw (DC 8 + the lycanthrope's proficiency bonus + the lycanthrope's Constitution modifier) or be cursed. If the character embraces the curse, his or her alignment becomes the one defined for the lycanthrope. The DM is free to decide that a change in alignment places the character under DM control until the curse of lycanthropy is removed.",
-									"The following information applies to specific lycanthropes.",
-									{
-										"type": "entries",
-										"entries": [
-											{
-												"type": "entries",
-												"name": "{@creature Werebear}",
-												"entries": [
-													"The character gains a Strength of 19 if his or her score isn't already higher, and a +1 bonus to AC while in bear or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "{@creature Wereboar}",
-												"entries": [
-													"The character gains a Strength of 17 if his or her score isn't already higher, and a +1 bonus to AC while in boar or hybrid form (from natural armor). Attack and damage rolls for the tusks are based on Strength. For the Charge trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "{@creature Wererat}",
-												"entries": [
-													"The character gains a Dexterity of 15 if his or her score isn't already higher. Attack and damage rolls for the bite are based on whichever is higher of the character's Strength and Dexterity."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "{@creature Weretiger}",
-												"entries": [
-													"The character gains a Strength of 17 if his or her score isn't already higher. Attack and damage rolls for the natural weapons are based on Strength. For the Pounce trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "{@creature Werewolf}",
-												"entries": [
-													"The character gains a Strength of 15 if his or her score isn't already higher, and a +1 bonus to AC while in wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
-												]
-											}
-										]
-									}
-								]
 							}
 						]
 					}
