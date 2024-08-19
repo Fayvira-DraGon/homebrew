@@ -245,10 +245,6 @@
 					]
 				}
 			],
-			"soundClip": {
-				"type": "external",
-				"url": "https://5e.tools/audio/bestiary/werewolf.mp3"
-			},
 			"traitTags": [
 				"Fey Ancestry",
 				"Keen Senses",
