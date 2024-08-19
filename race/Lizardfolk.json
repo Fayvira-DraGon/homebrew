@@ -1,0 +1,78 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "FHR",
+				"abbreviation": "FHR",
+				"full": "Fayvira's Homebrews & Rules",
+				"version": "1.0.0",
+				"url": "https://github.com/Fayvira-DraGon/homebrew.git",
+				"authors": [
+					"Fayvira"
+				]
+			}
+		]
+	},
+	"race": [
+		{
+			"name": "Lizardfolk",
+			"source": "FHR",
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"swim": true
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Natural Armor",
+				"Natural Weapon"
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Lizardfolk reach maturity around age 14 and rarely live longer than 60 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"You have a fanged maw that you can use to make unarmed strikes. When you hit with it, the strike deals {@damage 1d6} + your Strength modifier slashing damage, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hold Breath",
+					"entries": [
+						"You can hold your breath for up to 15 minutes at a time."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hungry Jaws",
+					"entries": [
+						"You can throw yourself into a feeding frenzy. As a bonus action, you can make a special attack with your Bite. If the attack hits, it deals its normal damage, and you gain temporary hit points equal to your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Natural Armor",
+					"entries": [
+						"You have tough, scaly skin. Your scales function as natural armor, granting you a +3 bonus to Armor Class."
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			]
+		}
+	]
+}
