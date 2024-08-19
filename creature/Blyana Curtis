@@ -15,10 +15,11 @@
 	},
 	"monster": [
 		{
-			"name": "Blyana Curtis (Dire Werewolf)",
+			"name": "Blyana Curtis",
 			"source": "FHR",
 			"group": [
-				"Lycanthropes"
+				"Lycanthropes",
+				"Dire Werewolf"
 			],
 			"size": [
 				"M"
@@ -369,7 +370,6 @@
 					]
 				}
 			],
-			"page": 1,
 			"isNpc": true,
 			"conditionInflict": [
 				"stunned"
@@ -396,8 +396,7 @@
 			"savingThrowForced": [
 				"constitution",
 				"dexterity"
-			],
-			"hasToken": true
+			]
 		}
 	]
 }
