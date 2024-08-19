@@ -20,7 +20,6 @@
 				"Dire Lycanthropes"
 			],
 			"source": "FHR",
-			"page": 211,
 			"basicRules": true,
 			"size": [
 				"M"
@@ -42,21 +41,21 @@
 					"condition": "in humanoid form"
 				},
 				{
-					"ac": 12,
+					"ac": 13,
 					"from": [
 						"natural armor"
 					],
-					"condition": "in wolf or hybrid form"
+					"condition": "in dire wolf or hybrid form"
 				}
 			],
 			"hp": {
-				"average": 58,
-				"formula": "9d8 + 18"
+				"formula": "9d10 + 18",
+				"average": 67
 			},
 			"speed": {
 				"walk": {
 					"number": 30,
-					"condition": "(40 ft. in wolf form)"
+					"condition": "(50 ft. in wolf form)"
 				}
 			},
 			"str": 15,
@@ -81,21 +80,24 @@
 					"cond": true
 				}
 			],
-			"languages": [
-				"Common (can't speak in wolf form)"
-			],
-			"cr": "3",
+			"cr": "4",
 			"trait": [
 				{
 					"name": "Shapechanger",
 					"entries": [
-						"The werewolf can use its action to polymorph into a wolf-humanoid hybrid or into a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+						"The dire werewolf can use its action to polymorph into a large dire wolf-humanoid hybrid or into a dire wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
 					]
 				},
 				{
 					"name": "Keen Hearing and Smell",
 					"entries": [
-						"The werewolf has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+						"The dire werewolf has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Speak with Wolves",
+					"entries": [
+						"The dire werewolf can communicate with wolves as if they shared a language."
 					]
 				}
 			],
@@ -103,19 +105,19 @@
 				{
 					"name": "Multiattack (Humanoid or Hybrid Form Only)",
 					"entries": [
-						"The werewolf makes two attacks: two with its spear (humanoid form) or one with its bite and one with its claws (hybrid form)."
+						"The dire werewolf makes two attacks, only one of which can be a bite."
 					]
 				},
 				{
-					"name": "Bite (Wolf or Hybrid Form Only)",
+					"name": "Bite (Dire Wolf or Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage. If the target is a humanoid, it must succeed on a {@dc 12} Constitution saving throw or be cursed with werewolf lycanthropy."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d8 + 2}) piercing damage. If the target is a humanoid, it must succeed on a {@dc 12} Constitution saving throw or be cursed with werewolf lycanthropy. This is a magic and silvered weapon attack."
 					]
 				},
 				{
 					"name": "Claws (Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one creature. {@h}7 ({@damage 2d4 + 2}) slashing damage."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}12 ({@damage 4d4 + 2}) slashing damage."
 					]
 				},
 				{
@@ -123,15 +125,6 @@
 					"entries": [
 						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one creature. {@h}5 ({@damage 1d6 + 2}) piercing damage, or 6 ({@damage 1d8 + 2}) piercing damage if used with two hands to make a melee attack."
 					]
-				}
-			],
-			"variant": [
-				{
-					"name": "Nonhuman Lycanthropes",
-					"entries": [
-						"The statistics presented in this section assume a base creature of human. However, you can also use the statistics to represent nonhuman lycanthropes, adding verisimilitude by allowing a nonhuman lycanthrope to retain one or more of its humanoid racial traits. For example, an elf werewolf might have the Fey Ancestry trait."
-					],
-					"type": "variant"
 				}
 			],
 			"environment": [
@@ -152,10 +145,6 @@
 			"actionTags": [
 				"Multiattack"
 			],
-			"languageTags": [
-				"C",
-				"CS"
-			],
 			"miscTags": [
 				"MW",
 				"CUR",
@@ -165,10 +154,6 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true,
-			"token": {
-				"name": "Werewolf",
-				"source": "MM"
-			},
 			"fluff": {
 				"name": "Werewolf",
 				"source": "MM",
@@ -278,6 +263,28 @@
 						}
 					}
 				]
+			},
+			"uniqueId": "eb529dde-ab48-45a5-aefc-7f2540014b6b",
+			"languages": [
+				"Common"
+			],
+			"languageTags": [
+				"C"
+			],
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from attacks that aren't magical and silvered",
+					"cond": true
+				}
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://i.imgur.com/4BLo6Ka.png"
 			},
 			"damageTags": [
 				"P",
