@@ -44,7 +44,7 @@
 					"from": [
 						"unarmored defense"
 					],
-					"condition": "in humanoid form",
+					"condition": "in humanoid form"
 				},
 				{
 					"ac": 18,
@@ -62,7 +62,7 @@
 			"speed": {
 				"walk": {
 					"number": 40,
-					"condition": "(50 ft. in dire wolf form)"
+					"condition": "(60 ft. in dire wolf form)"
 				}
 			},
 			"str": 20,
@@ -76,8 +76,8 @@
 				"athletics": "+10",
 				"intimidation": "+5",
 				"perception": "+11",
-				"stealth": "+7",
-				"survival": "+6"
+				"survival": "+6",
+				"stealth": "+7"
 			},
 			"passive": 21,
 			"immune": [
@@ -100,7 +100,7 @@
 				{
 					"name": "Shapechanger",
 					"entries": [
-						"Blaire can use her action to polymorph into a dire wolf-humanoid hybrid or into a dire wolf, or back into her true form, which is humanoid. Her statistics, other than her AC, are the same in each form. Any equipment she is wearing or carrying isn't transformed. She reverts to her true form if she dies."
+						"Blaire can use her action to polymorph into a large dire wolf-humanoid hybrid or into a dire wolf, or back into her true form, which is humanoid. Her statistics, other than her AC, are the same in each form. Any equipment she is wearing or carrying isn't transformed. She reverts to her true form if she dies."
 					]
 				},
 				{
@@ -158,7 +158,7 @@
 					]
 				},
 				{
-					"name": "Reckless Attack",
+					"name": "Reckless",
 					"entries": [
 						"At the start of her turn, Blaire can gain advantage on all melee weapon attack rolls she makes during that turn, but attack rolls against her have advantage until the start of her next turn."
 					]
@@ -209,7 +209,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Blaire Bonilla wields a {@item silvered warhammer|phb} with an attuned {@item Amethyst of Many Sizes|FHR} attached to it."
+						"Blaire wields a {@item silvered warhammer|phb} with an attuned {@item Amethyst of Many Sizes|FHR} attached to it."
 					]
 				}
 			],
@@ -223,25 +223,25 @@
 				{
 					"name": "Bite (Dire Wolf or Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage. If the target is a humanoid, it must succeed on a {@dc 10} Constitution saving throw or be cursed with werewolf lycanthropy. This is a magic and silvered weapon attack."
+						"{@atk mw} {@hit 10} to hit, reach 10 ft. on her turn (or 5 ft.), one target. {@h}14 ({@damage 2d8 + 5}) piercing damage. If the target is a humanoid, it must succeed on a {@dc 17} Constitution saving throw or be cursed with werewolf lycanthropy. This is a magic and silvered weapon attack."
 					]
 				},
 				{
 					"name": "Claws (Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}15 ({@damage 4d4 + 5}) slashing damage. This is a magic weapon attack."
+						"{@atk mw} {@hit 10} to hit, reach 10 ft. on her turn (or 5 ft.), one target. {@h}15 ({@damage 4d4 + 5}) slashing damage. This is a magic weapon attack."
 					]
 				},
 				{
 					"name": "+1 Large Silvered Warhammer (Human Form Only)",
 					"entries": [
-						"{@atk mw} {@hit +11} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage."
+						"{@atk mw} {@hit +11} to hit, reach 10 ft. on her turn (or 5 ft.), one target. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage."
 					]
 				},
 				{
 					"name": "+1 Huge Silvered Warhammer (Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit +11} to hit, reach 5 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage."
+						"{@atk mw} {@hit +11} to hit, reach 10 ft. on her turn (or 5 ft.), one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage."
 					]
 				}
 			],
@@ -250,11 +250,9 @@
 				"url": "https://5e.tools/audio/bestiary/werewolf.mp3"
 			},
 			"traitTags": [
-				"Brute",
 				"Fey Ancestry",
 				"Keen Senses",
 				"Magic Weapons",
-				"Pounce",
 				"Reckless",
 				"Shapechanger"
 			],
@@ -267,6 +265,7 @@
 			],
 			"miscTags": [
 				"MW",
+				"RCH",
 				"CUR",
 				"MLW"
 			],
@@ -317,55 +316,6 @@
 										]
 									}
 								]
-							},
-							{
-								"type": "inset",
-								"name": "Player Characters as Lycanthropes",
-								"entries": [
-									"A character who becomes a lycanthrope retains his or her statistics except as specified by lycanthrope type. The character gains the lycanthrope's speeds in non-humanoid form, damage immunities, traits, and actions that don't involve equipment. The character is proficient with the lycanthrope's natural attacks, such as its bite or claws, which deal damage as shown in the lycanthrope's statistics. The character can't speak while in animal form.",
-									"A non-lycanthrope humanoid hit by an attack that carries the curse of lycanthropy must succeed on a Constitution saving throw (DC 8 + the lycanthrope's proficiency bonus + the lycanthrope's Constitution modifier) or be cursed. If the character embraces the curse, his or her alignment becomes the one defined for the lycanthrope. The DM is free to decide that a change in alignment places the character under DM control until the curse of lycanthropy is removed.",
-									"The following information applies to specific lycanthropes.",
-									{
-										"type": "entries",
-										"entries": [
-											{
-												"type": "entries",
-												"name": "{@creature Werebear}",
-												"entries": [
-													"The character gains a Strength of 19 if his or her score isn't already higher, and a +1 bonus to AC while in bear or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "{@creature Wereboar}",
-												"entries": [
-													"The character gains a Strength of 17 if his or her score isn't already higher, and a +1 bonus to AC while in boar or hybrid form (from natural armor). Attack and damage rolls for the tusks are based on Strength. For the Charge trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "{@creature Wererat}",
-												"entries": [
-													"The character gains a Dexterity of 15 if his or her score isn't already higher. Attack and damage rolls for the bite are based on whichever is higher of the character's Strength and Dexterity."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "{@creature Weretiger}",
-												"entries": [
-													"The character gains a Strength of 17 if his or her score isn't already higher. Attack and damage rolls for the natural weapons are based on Strength. For the Pounce trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "{@creature Werewolf}",
-												"entries": [
-													"The character gains a Strength of 15 if his or her score isn't already higher, and a +1 bonus to AC while in wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
-												]
-											}
-										]
-									}
-								]
 							}
 						]
 					}
@@ -375,14 +325,21 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://i.imgur.com/T9mzKfL.png"
+							"url": "https://i.imgur.com/jdlsxH7.png"
 						}
 					},
 					{
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://i.imgur.com/gxDy5AT.png"
+							"url": "https://i.imgur.com/uZYGFlz.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/nzvgLjS.png"
 						}
 					}
 				]
@@ -416,16 +373,12 @@
 					"entries": [
 						"As a bonus action, Blaire can enter a rage that lasts for 1 minute. The rage ends early if she is knocked {@condition unconscious} or if her turn ends and she hasn't attacked a hostile creature or taken damage since her last turn. While raging, Blaire gains the following benefits:",
 						"She has advantage on Strength checks and Strength saving throws.",
-						"She deals an extra 2 damage when she hits a target with a melee weapon attack.",
+						"She deals an extra 3 damage when she hits a target with a melee weapon attack.",
 						"She has resistance to bludgeoning, piercing, and slashing damage."
 					]
 				}
 			],
 			"shortName": "Blaire",
-			"tokenHref": {
-				"type": "external",
-				"url": "https://i.imgur.com/l6YRp1L.png"
-			},
 			"isNpc": true,
 			"senses": [
 				"darkvision 60 ft."
@@ -436,6 +389,10 @@
 			"conditionInflict": [
 				"unconscious"
 			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://i.imgur.com/sSAEP2d.png"
+			},
 			"damageTags": [
 				"B",
 				"N",
