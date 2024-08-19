@@ -1,0 +1,25 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "FHR",
+				"abbreviation": "FHR",
+				"full": "Fayvira's Homebrews & Rules",
+				"version": "1.0.0",
+				"url": "https://github.com/Fayvira-DraGon/homebrew/tree/master",
+				"authors": [
+					"Fayvira"
+				]
+			}
+		]
+	},
+	"monster": [
+		{
+			"name": "Dire Werewolf",
+			"source": "FHR",
+			"group": [
+				"Lycanthropes"
+			],
+		}
+	]
+}
