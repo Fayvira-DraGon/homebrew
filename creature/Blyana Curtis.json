@@ -62,7 +62,7 @@
 			"speed": {
 				"walk": {
 					"number": 45,
-					"condition": "(55 ft. in dire wolf form)"
+					"condition": "(65 ft. in dire wolf form)"
 				}
 			},
 			"str": 16,
@@ -72,6 +72,7 @@
 			"wis": 16,
 			"cha": 11,
 			"skill": {
+				"athletics": "+6",
 				"history": "+5",
 				"stealth": "+6",
 				"perception": "+9"
