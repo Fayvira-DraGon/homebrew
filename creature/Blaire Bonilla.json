@@ -45,7 +45,6 @@
 						"unarmored defense"
 					],
 					"condition": "in humanoid form",
-					"braces": true
 				},
 				{
 					"ac": 18,
