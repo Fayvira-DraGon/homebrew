@@ -72,11 +72,11 @@
 			"wis": 10,
 			"cha": 10,
 			"skill": {
-				"perception": "+8",
-				"intimidation": "+4",
-				"athletics": "+8",
 				"animal handling": "+4",
-				"stealth": "+2"
+				"athletics": "+8",
+				"intimidation": "+4",
+				"perception": "+8",
+				"stealth": "+6"
 			},
 			"passive": 18,
 			"immune": [
