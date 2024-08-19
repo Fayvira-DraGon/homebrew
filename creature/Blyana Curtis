@@ -72,8 +72,8 @@
 			"cha": 11,
 			"skill": {
 				"history": "+5",
-				"perception": "+9",
-				"stealth": "+6"
+				"stealth": "+6",
+				"perception": "+9"
 			},
 			"passive": 19,
 			"immune": [
@@ -154,7 +154,7 @@
 				{
 					"name": "Astral Unarmed Strike (Arms of the Astral Self Only)",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft. or 10 ft., one target. {@h}6 ({@damage 1d6 + 3}) force damage. This is a magic weapon attack."
+						"{@atk mw} {@hit 6} to hit, reach 10 ft. on her turn (or 5 ft.), one target. {@h}6 ({@damage 1d6 + 3}) force damage. This is a magic weapon attack."
 					]
 				},
 				{
@@ -180,6 +180,7 @@
 			"miscTags": [
 				"MW",
 				"CUR",
+				"RCH",
 				"RW"
 			],
 			"hasFluff": true,
@@ -287,14 +288,35 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://i.imgur.com/T9mzKfL.png"
+							"url": "https://i.imgur.com/8x4CJd4.png"
 						}
 					},
 					{
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://i.imgur.com/gxDy5AT.png"
+							"url": "https://i.imgur.com/AZIVCp8.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/E0d4pdd.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/hFq5VGp.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/Pq0HjTl.png"
 						}
 					}
 				]
@@ -379,17 +401,18 @@
 			"shortName": "Blyana",
 			"reaction": [
 				{
-					"name": "Deflect Missiles {@recharge 5}",
+					"name": "Deflect Missiles",
 					"entries": [
 						"When Blyana is hit by a ranged weapon attack, she reduces the damage from the attack by {@dice 1d10 + 9}. If the damage is reduced to 0, Blyana can catch the missile if it is small enough to hold in one hand and she has at least one hand free. If she catches the missile in this way she can make a ranged weapon attack with the weapon or piece of ammunition she just caught.",
-						"<em><strong>Deflect Missile.</strong></em> {@atk rw} {@hit 6} to hit, range 20/60 ft., one creature. {@h}6 ({@damage 1d6 + 3}) respective damage."
+						{
+							"name": "Deflected Missile {@recharge 5}",
+							"entries": [
+								"{@atk rw} {@hit 6} to hit, range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) damage of ammunition's type. This is a magic weapon attack."
+							]
+						}
 					]
 				}
 			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://i.imgur.com/l6YRp1L.png"
-			},
 			"page": 1,
 			"isNpc": true,
 			"conditionInflict": [
@@ -403,6 +426,11 @@
 				"C",
 				"E"
 			],
+			"uniqueId": "aca7f17c-9f62-461e-93c7-b99c5f16e2dd",
+			"tokenHref": {
+				"type": "external",
+				"url": "https://i.imgur.com/jCCqdTI.png"
+			},
 			"damageTags": [
 				"B",
 				"O",
