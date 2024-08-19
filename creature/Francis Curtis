@@ -1,0 +1,359 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "FHR",
+				"abbreviation": "FHR",
+				"full": "Fayvira's Homebrews & Rules",
+				"version": "1.0.0",
+				"url": "https://github.com/Fayvira-DraGon/homebrew.git",
+				"authors": [
+					"Fayvira"
+				]
+			}
+		]
+	},
+	"monster": [
+		{
+			"name": "Francis Curtis ()",
+			"source": "FHR",
+			"group": [
+				"Lycanthropes",
+				"Werewolf"
+			],
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					{
+						"tag": "human",
+						"prefix": "male"
+					},
+					"shapechanger"
+				]
+			},
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item cast-off half plate armor|xge}"
+					],
+					"condition": "in humanoid form"
+				},
+				{
+					"ac": 17,
+					"from": [
+						"natural armor",
+						"unarmored defense"
+					],
+					"condition": "in wolf or hybrid form"
+				}
+			],
+			"hp": {
+				"formula": "15d8 + 60",
+				"average": 127
+			},
+			"speed": {
+				"walk": {
+					"number": 40,
+					"condition": "(50 ft. in wolf form)"
+				}
+			},
+			"str": 18,
+			"dex": 14,
+			"con": 18,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"skill": {
+				"perception": "+8",
+				"intimidation": "+4",
+				"athletics": "+8",
+				"animal handling": "+4",
+				"stealth": "+2"
+			},
+			"passive": 18,
+			"immune": [
+				{
+					"immune": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't silvered",
+					"cond": true
+				}
+			],
+			"languages": [
+				"Common (can't speak in wolf form)",
+				"Elvish"
+			],
+			"cr": "10",
+			"trait": [
+				{
+					"name": "Shapechanger",
+					"entries": [
+						"Francis can use his action to polymorph into a wolf-humanoid hybrid or into a wolf, or back into his true form, which is humanoid. His statistics, other than his AC, are the same in each form. Any equipment he is wearing or carrying isn't transformed. He reverts to his true form if he dies."
+					]
+				},
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"Francis has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Reckless Attack",
+					"entries": [
+						"At the start of his turn, Francis can gain advantage on all melee weapon attack rolls he makes during that turn, but attack rolls against him have advantage until the start of his next turn."
+					]
+				},
+				{
+					"name": "Unarmored Defense",
+					"entries": [
+						"While Francis is wearing no armor, his AC includes his Constitution modifier."
+					]
+				},
+				{
+					"name": "Danger Sense",
+					"entries": [
+						"Francis has advantage on Dexterity saving throws against effects that he can see, such as traps and spells, while not {@condition blinded}, {@condition deafened}, or {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Aspect of the Beast (Bear)",
+					"entries": [
+						"Francis's carrying capacity is doubled, and he has advantage on Strength checks made to push, pull, lift, or break objects."
+					]
+				},
+				{
+					"name": "Totem Spirit (Bear)",
+					"entries": [
+						"While raging, Francis has resistance to all damage except psychic damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack (Humanoid or Hybrid Form Only)",
+					"entries": [
+						"Francis makes two attacks, only one of which can be a bite."
+					]
+				},
+				{
+					"name": "Bite (Wolf or Hybrid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) piercing damage. If the target is a humanoid, it must succeed on a {@dc 15} Constitution saving throw or be cursed with werewolf lycanthropy."
+					]
+				},
+				{
+					"name": "Claw (Hybrid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one creature. {@h}9 ({@damage 2d4 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "+1 Large Silvered Great Cleaver (Humanoid Form Only)",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d12 + 5}) slashing damage."
+					]
+				}
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/werewolf.mp3"
+			},
+			"traitTags": [
+				"Keen Senses",
+				"Reckless",
+				"Shapechanger"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"CS",
+				"E"
+			],
+			"miscTags": [
+				"MW",
+				"CUR"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"A werewolf is a savage predator. In its humanoid form, a werewolf has heightened senses, a fiery temper, and a tendency to eat rare meat. Its wolf form is a fearsome predator, but its hybrid form is more terrifying by far-a furred and well-muscled humanoid body topped by a ravening wolf's head. A werewolf can wield weapons in hybrid form, though it prefers to tear foes apart with its powerful claws and bite.",
+									"Most werewolves flee civilized lands not long after becoming afflicted. Those that reject the curse fear what will happen if they remain among their friends and family. Those that embrace the curse fear discovery and the consequences of their murderous acts. In the wild, werewolves form packs that also include wolves and dire wolves."
+								]
+							},
+							{
+								"type": "insetReadaloud",
+								"entries": [
+									{
+										"type": "quote",
+										"entries": [
+											"The Company of the Black Moon—they used to be adventurers loyal to the realm. Now they roam the woods as a pack of werewolves. The king has promised estates, titles, and gold to anyone who can undo the curse afflicting them. I, for one, have no interest in such rewards."
+										],
+										"by": "Thornstaff, elf druid"
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "section",
+						"name": "Lycanthropes",
+						"entries": [
+							"One of the most ancient and feared of all curses, lycanthropy can transform the most civilized humanoid into a ravening beast. In its natural humanoid form, a creature cursed by lycanthropy appears as its normal self. Over time, however, many lycanthropes acquire features suggestive of their animal form. In that animal form, a lycanthrope resembles a powerful version of a normal animal. On close inspection, its eyes show a faint spark of unnatural intelligence and might glow red in the dark.",
+							"Evil lycanthropes hide among normal folk, emerging in animal form at night to spread terror and bloodshed, especially under a full moon. Good lycanthropes are reclusive and uncomfortable around other civilized creatures, often living alone in wilderness areas far from villages and towns.",
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "entries",
+										"name": "Curse of Lycanthropy",
+										"entries": [
+											"A humanoid creature can be afflicted with the curse of lycanthropy after being wounded by a lycanthrope, or if one or both of its parents are lycanthropes. A {@spell remove curse} spell can rid an afflicted lycanthrope of the curse, but a natural born lycanthrope can be freed of the curse only with a wish.",
+											"A lycanthrope can either resist its curse or embrace it. By resisting the curse, a lycanthrope retains its normal alignment and personality while in humanoid form. It lives its life as it always has, burying deep the bestial urges raging inside it. However, when the full moon rises, the curse becomes too strong to resist, transforming the individual into its beast form-or into a horrible hybrid form that combines animal and humanoid traits. When the moon wanes, the beast within can be controlled once again. Especially if the cursed creature is unaware of its condition, it might not remember the events of its transformation, though those memories often haunt a lycanthrope as bloody dreams.",
+											"Some individuals see little point in fighting the curse and accept what they are. With time and experience, they learn to master their shapechanging ability and can assume beast form or hybrid form at will. Most lycanthropes that embrace their bestial natures succumb to bloodlust, becoming evil, opportunistic creatures that prey on the weak."
+										]
+									}
+								]
+							},
+							{
+								"type": "inset",
+								"name": "Player Characters as Lycanthropes",
+								"entries": [
+									"A character who becomes a lycanthrope retains his or her statistics except as specified by lycanthrope type. The character gains the lycanthrope's speeds in non-humanoid form, damage immunities, traits, and actions that don't involve equipment. The character is proficient with the lycanthrope's natural attacks, such as its bite or claws, which deal damage as shown in the lycanthrope's statistics. The character can't speak while in animal form.",
+									"A non-lycanthrope humanoid hit by an attack that carries the curse of lycanthropy must succeed on a Constitution saving throw (DC 8 + the lycanthrope's proficiency bonus + the lycanthrope's Constitution modifier) or be cursed. If the character embraces the curse, his or her alignment becomes the one defined for the lycanthrope. The DM is free to decide that a change in alignment places the character under DM control until the curse of lycanthropy is removed.",
+									"The following information applies to specific lycanthropes.",
+									{
+										"type": "entries",
+										"entries": [
+											{
+												"type": "entries",
+												"name": "{@creature Werebear}",
+												"entries": [
+													"The character gains a Strength of 19 if his or her score isn't already higher, and a +1 bonus to AC while in bear or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "{@creature Wereboar}",
+												"entries": [
+													"The character gains a Strength of 17 if his or her score isn't already higher, and a +1 bonus to AC while in boar or hybrid form (from natural armor). Attack and damage rolls for the tusks are based on Strength. For the Charge trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "{@creature Wererat}",
+												"entries": [
+													"The character gains a Dexterity of 15 if his or her score isn't already higher. Attack and damage rolls for the bite are based on whichever is higher of the character's Strength and Dexterity."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "{@creature Weretiger}",
+												"entries": [
+													"The character gains a Strength of 17 if his or her score isn't already higher. Attack and damage rolls for the natural weapons are based on Strength. For the Pounce trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "{@creature Werewolf}",
+												"entries": [
+													"The character gains a Strength of 15 if his or her score isn't already higher, and a +1 bonus to AC while in wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/4EmBfs0.png"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/MWELyaR.png"
+						}
+					}
+				]
+			},
+			"shortName": "Francis",
+			"page": 2,
+			"resist": [
+				{
+					"resist": [
+						"acid",
+						"bludgeoning",
+						"cold",
+						"fire",
+						"force",
+						"lightning",
+						"necrotic",
+						"piercing",
+						"poison",
+						"radiant",
+						"slashing",
+						"thunder"
+					],
+					"preNote": "while raging:"
+				}
+			],
+			"bonus": [
+				{
+					"name": "Rage (4/Short or Long Rest)",
+					"entries": [
+						"As a bonus action, Francis can enter a rage that lasts for 1 minute. The rage ends early if Francis is knocked {@condition unconscious} or if his turn ends and he hasn't attacked a hostile creature or taken damage since his last turn. While raging, Francis gains the following benefits:",
+						"He has advantage on Strength checks and Strength saving throws.",
+						"He deals an extra 2 damage when he hits a target with a melee weapon attack.",
+						"He has resistance to acid, bludgeoning, cold, fire, force, lightning, necrotic, piercing, poison, radiant, slashing, and thunder damage."
+					]
+				}
+			],
+			"conditionInflict": [
+				"unconscious"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://i.imgur.com/q4Kk88J.png"
+			},
+			"save": {
+				"str": "+8",
+				"con": "+8"
+			},
+			"isNpc": true,
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"savingThrowForced": [
+				"constitution"
+			]
+		}
+	]
+}
