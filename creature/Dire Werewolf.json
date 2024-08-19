@@ -117,7 +117,7 @@
 				{
 					"name": "Claws (Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}12 ({@damage 4d4 + 2}) slashing damage."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}12 ({@damage 4d4 + 2}) slashing damage. This is a magic weapon attack."
 					]
 				},
 				{
