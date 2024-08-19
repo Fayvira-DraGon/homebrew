@@ -356,9 +356,14 @@
 					"entries": [
 						"When Blyana is hit by a ranged weapon attack, she reduces the damage from the attack by {@dice 1d10 + 9}. If the damage is reduced to 0, Blyana can catch the missile if it is small enough to hold in one hand and she has at least one hand free. If she catches the missile in this way she can make a ranged weapon attack with the weapon or piece of ammunition she just caught.",
 						{
-							"name": "Deflected Missile {@recharge 5}",
-							"entries": [
-								"{@atk rw} {@hit 6} to hit, range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) damage of ammunition's type. This is a magic weapon attack."
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Deflected Missile {@recharge 5}",
+									"entry": "{@atk rw} {@hit 6} to hit, range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) damage of ammunition's type. This is a magic weapon attack."
+								}
 							]
 						}
 					]
