@@ -80,10 +80,7 @@
 				"medicine": "+6",
 				"religion": "+2"
 			},
-			"passive": [
-				"perception": 23,
-				"investigation": 5
-			],
+			"passive": 23,
 			"immune": [
 				{
 					"immune": [
