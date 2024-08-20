@@ -2,7 +2,7 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "FayvirasHomebrewsRules",
+				"json": "FHR",
 				"abbreviation": "FHR",
 				"full": "Fayvira's Homebrews & Rules",
 				"version": "1.0.0",
@@ -16,12 +16,12 @@
 			}
 		],
 		"dateAdded": 1724102040,
-		"dateLastModified": 1724139357
+		"dateLastModified": 1724139861
 	},
 	"item": [
 		{
 			"name": "Amethyst of Many Sizes",
-			"source": "FayvirasHomebrewsRules",
+			"source": "FHR",
 			"rarity": "rare",
 			"reqAttune": true,
 			"wondrous": true,
