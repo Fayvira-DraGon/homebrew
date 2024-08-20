@@ -127,6 +127,18 @@
 				"Korth can't be {@condition surprised} while he is conscious.",
 				"Other creatures don't gain advantage on attack rolls against Korth as a result of being unseen by him."
 			]
+		},
+		{
+			"name": "Blessed Healer",
+			"entries": [
+				"When Korth casts a spell of 1st level or higher that restores hit points to a creature other than himself, he regains hit points equal to 2 + the spell's level."
+			]
+		},
+		{
+			"name": "Blessed Strike",
+			"entries": [
+				"When a creature takes damage from one of Korth's cantrips or weapon attacks, he can also deal {@damage 1d8} radiant damage to that creature. Once he deals this damage, he can't use this feature again until the start of his next turn."
+			]
 		}
 	],
 	"action": [
@@ -286,24 +298,33 @@
 	"spellcasting": [
 		{
 			"name": "Spellcasting",
+			"headerEntries": [
+				"Korth is a 9th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 6} to hit with spell attacks). Korth has following cleric spells prepared:"
+			],
 			"spells": {
 				"0": {
 					"spells": [
-						"{@spell acid splash}",
-						"{@spell acid splash}",
-						"{@spell acid splash}",
-						"{@spell acid splash}"
+						"{@spell sacred flame}",
+						"{@spell spare the dying}",
+						"{@spell thaumaturgy}",
+						"{@spell toll the dead|XGE}"
 					]
 				},
 				"1": {
 					"spells": [
 						"{@spell bless}",
-						"{@spell cure wounds}"
+						"{@spell cure wounds}",
+						"{@spell guiding bolt}",
+						"{@spell healing word}",
+						"{@spell sanctuary}"
 					],
 					"slots": 4
 				},
 				"2": {
 					"spells": [
+						"{@spell aid}",
+						"{@spell blindness/deafness}",
+						"{@spell hold person}",
 						"{@spell lesser restoration}",
 						"{@spell spiritual weapon}"
 					],
@@ -311,13 +332,18 @@
 				},
 				"3": {
 					"spells": [
+						"{@spell aura of vitality}",
 						"{@spell beacon of hope}",
-						"{@spell revivify}"
+						"{@spell mass healing word}",
+						"{@spell revivify}",
+						"{@spell spirit guardians}"
 					],
 					"slots": 3
 				},
 				"4": {
 					"spells": [
+						"{@spell aura of life}",
+						"{@spell death ward}",
 						"{@spell death ward}",
 						"{@spell guardian of faith}"
 					],
@@ -325,23 +351,26 @@
 				},
 				"5": {
 					"spells": [
+						"{@spell contagion}",
+						"{@spell greater restoration}",
 						"{@spell mass cure wounds}",
 						"{@spell raise dead}"
 					],
 					"slots": 1
 				}
 			},
+			"ability": "wis",
 			"type": "spellcasting"
 		}
 	],
 	"spellcastingTags": [
-		"O"
+		"CC"
 	],
 	"bonus": [
 		{
 			"name": "Channel Divinity: Turn Undead",
 			"entries": [
-				"Each undead that can see or hear Korth within 30 feet of him must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.",
+				"Each undead that can see or hear Korth within 30 feet of him must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage. If the creature that fails its saving throw is CR 1 or lower, it is instead instantly destroyed.",
 				"A turned creature must spend its turns trying to move as far away from Korth as it can, and it can't willingly move to a space within 30 feet of him. It also can't take reactions. For its action, it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the {@action Dodge} action.",
 				"Korth can use his Channel Divinity abilities only twice per short or long rest."
 			]
@@ -359,7 +388,7 @@
 		"S"
 	],
 	"damageTagsSpell": [
-		"A",
+		"N",
 		"O",
 		"R"
 	],
@@ -367,7 +396,9 @@
 		"constitution"
 	],
 	"savingThrowForcedSpell": [
-		"dexterity"
+		"constitution",
+		"dexterity",
+		"wisdom"
 	]
 }
 	]
