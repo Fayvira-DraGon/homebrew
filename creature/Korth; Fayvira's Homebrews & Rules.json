@@ -45,13 +45,6 @@
 						"{@item shapechanger chain shirt|fhr}"
 					],
 					"condition": "in humanoid form"
-				},
-				{
-					"ac": 12,
-					"from": [
-						"natural armor"
-					],
-					"condition": "in wolf or hybrid form"
 				}
 			],
 			"hp": {
