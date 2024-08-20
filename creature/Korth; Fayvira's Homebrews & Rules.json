@@ -259,12 +259,70 @@
 					"cond": true
 				}
 			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell acid splash}",
+								"{@spell acid splash}",
+								"{@spell acid splash}",
+								"{@spell acid splash}"
+							]
+						},
+						"1": {
+							"spells": [
+								"{@spell alarm}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell spray of cards|BMT}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell antagonize|BMT}"
+							],
+							"slots": 3
+						},
+						"4": {
+							"spells": [
+								"{@spell spirit of death|BMT}"
+							],
+							"slots": 3
+						},
+						"5": {
+							"spells": [
+								"{@spell summon draconic spirit|FTD}"
+							],
+							"slots": 1
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
 			"damageTags": [
 				"P",
 				"S"
 			],
+			"damageTagsSpell": [
+				"A",
+				"O",
+				"Y"
+			],
 			"savingThrowForced": [
 				"constitution"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
 			]
 		}
 	]
