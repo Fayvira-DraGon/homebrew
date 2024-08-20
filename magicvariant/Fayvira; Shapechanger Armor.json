@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724096580,
-		"dateLastModified": 1724139167
+		"dateLastModified": 1724139308
 	},
 	"magicvariant": [
 		{
@@ -29,7 +29,7 @@
 			],
 			"inherits": {
 				"namePrefix": "Shapechanger ",
-				"source": "FHR",
+				"source": "FayvirasHomebrewsRules",
 				"rarity": "rare",
 				"entries": [
 					"When you transform or polymorph into another creature, if your new form can wear armor or barding, this armor does not meld into your new form, instead it changes size and shape to fit your new form. If you doff this armor, or revert to your true form, it returns to its original size and shape."
