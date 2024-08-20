@@ -16,12 +16,12 @@
 			}
 		],
 		"dateAdded": 1724040360,
-		"dateLastModified": 1724139070
+		"dateLastModified": 1724139386
 	},
 	"monster": [
 		{
 			"name": "Francis Curtis",
-			"source": "FHR",
+			"source": "FayvirasHomebrewsRules",
 			"group": [
 				"Lycanthropes",
 				"Werewolf"
