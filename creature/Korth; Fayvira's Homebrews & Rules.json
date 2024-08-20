@@ -14,316 +14,361 @@
 		]
 	},
 	"monster": [
+{
+	"name": "Korth",
+	"group": [
+		"Lycanthropes"
+	],
+	"source": "FHR",
+	"basicRules": true,
+	"size": [
+		"M"
+	],
+	"type": {
+		"type": "humanoid",
+		"tags": [
+			{
+				"tag": "lizardfolk",
+				"prefix": "Male"
+			},
+			"shapechanger"
+		]
+	},
+	"alignment": [
+		"C",
+		"G"
+	],
+	"ac": [
 		{
-			"name": "Korth",
-			"group": [
-				"Lycanthropes"
+			"ac": 15,
+			"from": [
+				"{@item shapechanger chain shirt|fhr}"
+			]
+		}
+	],
+	"hp": {
+		"formula": "18d8 + 36",
+		"average": 117
+	},
+	"speed": {
+		"walk": {
+			"number": 30,
+			"condition": "(40 ft. in wolf form)"
+		},
+		"swim": {
+			"number": 30,
+			"condition": "(40 ft. in wolf form)"
+		}
+	},
+	"str": 16,
+	"dex": 14,
+	"con": 14,
+	"int": 10,
+	"wis": 18,
+	"cha": 8,
+	"skill": {
+		"perception": "+8",
+		"stealth": "+4",
+		"medicine": "+6",
+		"religion": "+2"
+	},
+	"passive": 23,
+	"immune": [
+		{
+			"immune": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
 			],
-			"source": "FHR",
-			"basicRules": true,
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
+			"note": "from nonmagical attacks that aren't silvered",
+			"cond": true
+		}
+	],
+	"languages": [
+		"Common (can't speak in wolf form)",
+		"Primordial"
+	],
+	"cr": "3",
+	"trait": [
+		{
+			"name": "Shapechanger",
+			"entries": [
+				"Korth can use his action to polymorph into a wolf-humanoid hybrid or into a wolf, or back into his true form, which is humanoid. His statistics, other than his AC, are the same in each form. Any equipment it he wearing or carrying isn't transformed. He reverts to his true form if he dies."
+			]
+		},
+		{
+			"name": "Keen Hearing and Smell",
+			"entries": [
+				"Korth has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+			]
+		},
+		{
+			"name": "Special Equipment",
+			"entries": [
+				"Korth wears {@item shapechanger chain shirt|fhr} and {@item goggles of night|dmg} (extended darkvision included in senses). He also wields the sentient longsword {@item steel|wbtw}."
+			]
+		},
+		{
+			"name": "Disciple of Life",
+			"entries": [
+				"Whenever Korth uses a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level."
+			]
+		},
+		{
+			"name": "Observant (Feat)",
+			"entries": [
+				"If Korth can see a creature's mouth while it is speaking a language he understands, he can interpret what it's saying by reading its lips."
+			]
+		},
+		{
+			"name": "Alert (Feat)",
+			"entries": [
+				"Korth has a +5 bonus to initiative.",
+				"Korth can't be {@condition surprised} while he is conscious.",
+				"Other creatures don't gain advantage on attack rolls against Korth as a result of being unseen by him."
+			]
+		}
+	],
+	"action": [
+		{
+			"name": "Multiattack (Humanoid or Hybrid Form Only)",
+			"entries": [
+				"Korth makes two attacks, only one of which can be a bite."
+			]
+		},
+		{
+			"name": "Bite (Wolf or Hybrid Form Only)",
+			"entries": [
+				"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage. If the target is a humanoid, it must succeed on a {@dc 12} Constitution saving throw or be cursed with werewolf lycanthropy."
+			]
+		},
+		{
+			"name": "Claws (Hybrid Form Only)",
+			"entries": [
+				"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) slashing damage."
+			]
+		},
+		{
+			"name": "Steel (Humanoid Form Only)",
+			"entries": [
+				"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage, or 10 ({@damage 1d10 + 5}) slashing damage if used with both hands. This is a magic weapon attack."
+			]
+		},
+		{
+			"name": "Channel Divinity: Preserve Life",
+			"entries": [
+				"Korth chooses any living or non construct creatures within 30 feet of him to divide 45 hit points among them, but this healing cannot restore a creature to more than half of their hit point maximum.",
+				"Korth can use his Channel Divinity abilities only twice per short or long rest."
+			]
+		}
+	],
+	"attachedItems": [
+		"steel|wbtw"
+	],
+	"traitTags": [
+		"Keen Senses",
+		"Shapechanger"
+	],
+	"actionTags": [
+		"Multiattack"
+	],
+	"languageTags": [
+		"C",
+		"CS",
+		"P"
+	],
+	"miscTags": [
+		"MW",
+		"CUR"
+	],
+	"hasFluff": true,
+	"hasFluffImages": true,
+	"fluff": {
+		"entries": [
+			{
+				"type": "entries",
+				"entries": [
 					{
-						"tag": "lizardfolk",
-						"prefix": "Male"
+						"type": "entries",
+						"entries": [
+							"A werewolf is a savage predator. In its humanoid form, a werewolf has heightened senses, a fiery temper, and a tendency to eat rare meat. Its wolf form is a fearsome predator, but its hybrid form is more terrifying by far-a furred and well-muscled humanoid body topped by a ravening wolf's head. A werewolf can wield weapons in hybrid form, though it prefers to tear foes apart with its powerful claws and bite.",
+							"Most werewolves flee civilized lands not long after becoming afflicted. Those that reject the curse fear what will happen if they remain among their friends and family. Those that embrace the curse fear discovery and the consequences of their murderous acts. In the wild, werewolves form packs that also include wolves and dire wolves."
+						]
 					},
-					"shapechanger"
+					{
+						"type": "insetReadaloud",
+						"entries": [
+							{
+								"type": "quote",
+								"entries": [
+									"The Company of the Black Moon—they used to be adventurers loyal to the realm. Now they roam the woods as a pack of werewolves. The king has promised estates, titles, and gold to anyone who can undo the curse afflicting them. I, for one, have no interest in such rewards."
+								],
+								"by": "Thornstaff, elf druid"
+							}
+						]
+					}
 				]
 			},
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"{@item shapechanger chain shirt|fhr}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "18d8 + 36",
-				"average": 117
-			},
-			"speed": {
-				"walk": {
-					"number": 30,
-					"condition": "(40 ft. in wolf form)"
-				},
-				"swim": {
-					"number": 30,
-					"condition": "(40 ft. in wolf form)"
-				}
-			},
-			"str": 16,
-			"dex": 14,
-			"con": 14,
-			"int": 10,
-			"wis": 18,
-			"cha": 8,
-			"skill": {
-				"perception": "+8",
-				"stealth": "+4",
-				"medicine": "+6",
-				"religion": "+2"
-			},
-			"passive": 23,
-			"immune": [
-				{
-					"immune": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks that aren't silvered",
-					"cond": true
-				}
-			],
-			"languages": [
-				"Common (can't speak in wolf form)",
-				"Primordial"
-			],
-			"cr": "3",
-			"trait": [
-				{
-					"name": "Shapechanger",
-					"entries": [
-						"Korth can use his action to polymorph into a wolf-humanoid hybrid or into a wolf, or back into his true form, which is humanoid. His statistics, other than his AC, are the same in each form. Any equipment it he wearing or carrying isn't transformed. He reverts to his true form if he dies."
-					]
-				},
-				{
-					"name": "Keen Hearing and Smell",
-					"entries": [
-						"Korth has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
-					]
-				},
-				{
-					"name": "Special Equipment",
-					"entries": [
-						"Korth wears {@item shapechanger chain shirt|fhr} and {@item goggles of night|dmg} (extended darkvision included in senses)."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack (Humanoid or Hybrid Form Only)",
-					"entries": [
-						"Korth makes two attacks, only one of which can be a bite."
-					]
-				},
-				{
-					"name": "Bite (Wolf or Hybrid Form Only)",
-					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage. If the target is a humanoid, it must succeed on a {@dc 12} Constitution saving throw or be cursed with werewolf lycanthropy."
-					]
-				},
-				{
-					"name": "Claws (Hybrid Form Only)",
-					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) slashing damage."
-					]
-				},
-				{
-					"name": "Spear (Humanoid Form Only)",
-					"entries": [
-						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one creature. {@h}5 ({@damage 1d6 + 2}) piercing damage, or 6 ({@damage 1d8 + 2}) piercing damage if used with two hands to make a melee attack."
-					]
-				}
-			],
-			"attachedItems": [
-				"spear|phb"
-			],
-			"traitTags": [
-				"Keen Senses",
-				"Shapechanger"
-			],
-			"actionTags": [
-				"Multiattack"
-			],
-			"languageTags": [
-				"C",
-				"CS",
-				"P"
-			],
-			"miscTags": [
-				"MW",
-				"CUR",
-				"RW",
-				"MLW",
-				"THW"
-			],
-			"hasFluff": true,
-			"hasFluffImages": true,
-			"fluff": {
+			{
+				"type": "section",
+				"name": "Lycanthropes",
 				"entries": [
+					"One of the most ancient and feared of all curses, lycanthropy can transform the most civilized humanoid into a ravening beast. In its natural humanoid form, a creature cursed by lycanthropy appears as its normal self. Over time, however, many lycanthropes acquire features suggestive of their animal form. In that animal form, a lycanthrope resembles a powerful version of a normal animal. On close inspection, its eyes show a faint spark of unnatural intelligence and might glow red in the dark.",
+					"Evil lycanthropes hide among normal folk, emerging in animal form at night to spread terror and bloodshed, especially under a full moon. Good lycanthropes are reclusive and uncomfortable around other civilized creatures, often living alone in wilderness areas far from villages and towns.",
 					{
 						"type": "entries",
 						"entries": [
 							{
 								"type": "entries",
+								"name": "Curse of Lycanthropy",
 								"entries": [
-									"A werewolf is a savage predator. In its humanoid form, a werewolf has heightened senses, a fiery temper, and a tendency to eat rare meat. Its wolf form is a fearsome predator, but its hybrid form is more terrifying by far-a furred and well-muscled humanoid body topped by a ravening wolf's head. A werewolf can wield weapons in hybrid form, though it prefers to tear foes apart with its powerful claws and bite.",
-									"Most werewolves flee civilized lands not long after becoming afflicted. Those that reject the curse fear what will happen if they remain among their friends and family. Those that embrace the curse fear discovery and the consequences of their murderous acts. In the wild, werewolves form packs that also include wolves and dire wolves."
-								]
-							},
-							{
-								"type": "insetReadaloud",
-								"entries": [
-									{
-										"type": "quote",
-										"entries": [
-											"The Company of the Black Moon—they used to be adventurers loyal to the realm. Now they roam the woods as a pack of werewolves. The king has promised estates, titles, and gold to anyone who can undo the curse afflicting them. I, for one, have no interest in such rewards."
-										],
-										"by": "Thornstaff, elf druid"
-									}
+									"A humanoid creature can be afflicted with the curse of lycanthropy after being wounded by a lycanthrope, or if one or both of its parents are lycanthropes. A {@spell remove curse} spell can rid an afflicted lycanthrope of the curse, but a natural born lycanthrope can be freed of the curse only with a wish.",
+									"A lycanthrope can either resist its curse or embrace it. By resisting the curse, a lycanthrope retains its normal alignment and personality while in humanoid form. It lives its life as it always has, burying deep the bestial urges raging inside it. However, when the full moon rises, the curse becomes too strong to resist, transforming the individual into its beast form-or into a horrible hybrid form that combines animal and humanoid traits. When the moon wanes, the beast within can be controlled once again. Especially if the cursed creature is unaware of its condition, it might not remember the events of its transformation, though those memories often haunt a lycanthrope as bloody dreams.",
+									"Some individuals see little point in fighting the curse and accept what they are. With time and experience, they learn to master their shapechanging ability and can assume beast form or hybrid form at will. Most lycanthropes that embrace their bestial natures succumb to bloodlust, becoming evil, opportunistic creatures that prey on the weak."
 								]
 							}
 						]
-					},
-					{
-						"type": "section",
-						"name": "Lycanthropes",
-						"entries": [
-							"One of the most ancient and feared of all curses, lycanthropy can transform the most civilized humanoid into a ravening beast. In its natural humanoid form, a creature cursed by lycanthropy appears as its normal self. Over time, however, many lycanthropes acquire features suggestive of their animal form. In that animal form, a lycanthrope resembles a powerful version of a normal animal. On close inspection, its eyes show a faint spark of unnatural intelligence and might glow red in the dark.",
-							"Evil lycanthropes hide among normal folk, emerging in animal form at night to spread terror and bloodshed, especially under a full moon. Good lycanthropes are reclusive and uncomfortable around other civilized creatures, often living alone in wilderness areas far from villages and towns.",
-							{
-								"type": "entries",
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Curse of Lycanthropy",
-										"entries": [
-											"A humanoid creature can be afflicted with the curse of lycanthropy after being wounded by a lycanthrope, or if one or both of its parents are lycanthropes. A {@spell remove curse} spell can rid an afflicted lycanthrope of the curse, but a natural born lycanthrope can be freed of the curse only with a wish.",
-											"A lycanthrope can either resist its curse or embrace it. By resisting the curse, a lycanthrope retains its normal alignment and personality while in humanoid form. It lives its life as it always has, burying deep the bestial urges raging inside it. However, when the full moon rises, the curse becomes too strong to resist, transforming the individual into its beast form-or into a horrible hybrid form that combines animal and humanoid traits. When the moon wanes, the beast within can be controlled once again. Especially if the cursed creature is unaware of its condition, it might not remember the events of its transformation, though those memories often haunt a lycanthrope as bloody dreams.",
-											"Some individuals see little point in fighting the curse and accept what they are. With time and experience, they learn to master their shapechanging ability and can assume beast form or hybrid form at will. Most lycanthropes that embrace their bestial natures succumb to bloodlust, becoming evil, opportunistic creatures that prey on the weak."
-										]
-									}
-								]
-							}
-						]
-					}
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://i.imgur.com/yFyOIvp.png"
-						}
-					},
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://i.imgur.com/U4YHYAp.png"
-						}
-					},
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://i.imgur.com/IOKmTzB.png"
-						}
 					}
 				]
+			}
+		],
+		"images": [
+			{
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/cnYqAIo.png"
+				}
 			},
-			"save": {
-				"wis": "+6",
-				"cha": "+1"
+			{
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/7ZZtiuW.png"
+				}
 			},
-			"isNpc": true,
-			"tokenHref": {
-				"type": "external",
-				"url": "https://i.imgur.com/8GDJZiU.png"
-			},
-			"senses": [
-				"darkvision 120 ft."
-			],
-			"senseTags": [
-				"SD"
-			],
-			"shortName": true,
+			{
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.imgur.com/IOKmTzB.png"
+				}
+			}
+		]
+	},
+	"save": {
+		"wis": "+6",
+		"cha": "+1"
+	},
+	"isNpc": true,
+	"tokenHref": {
+		"type": "external",
+		"url": "https://i.imgur.com/8GDJZiU.png"
+	},
+	"senses": [
+		"darkvision 120 ft."
+	],
+	"senseTags": [
+		"SD"
+	],
+	"shortName": true,
+	"conditionImmune": [
+		{
 			"conditionImmune": [
 				{
-					"conditionImmune": [
-						{
-							"special": "surprised"
-						}
+					"special": "surprised"
+				}
+			],
+			"note": "while conscious",
+			"cond": true
+		}
+	],
+	"spellcasting": [
+		{
+			"name": "Spellcasting",
+			"spells": {
+				"0": {
+					"spells": [
+						"{@spell acid splash}",
+						"{@spell acid splash}",
+						"{@spell acid splash}",
+						"{@spell acid splash}"
+					]
+				},
+				"1": {
+					"spells": [
+						"{@spell bless}",
+						"{@spell cure wounds}"
 					],
-					"note": "while conscious",
-					"cond": true
+					"slots": 4
+				},
+				"2": {
+					"spells": [
+						"{@spell lesser restoration}",
+						"{@spell spiritual weapon}"
+					],
+					"slots": 3
+				},
+				"3": {
+					"spells": [
+						"{@spell beacon of hope}",
+						"{@spell revivify}"
+					],
+					"slots": 3
+				},
+				"4": {
+					"spells": [
+						"{@spell death ward}",
+						"{@spell guardian of faith}"
+					],
+					"slots": 3
+				},
+				"5": {
+					"spells": [
+						"{@spell mass cure wounds}",
+						"{@spell raise dead}"
+					],
+					"slots": 1
 				}
-			],
-			"spellcasting": [
-				{
-					"name": "Spellcasting",
-					"spells": {
-						"0": {
-							"spells": [
-								"{@spell acid splash}",
-								"{@spell acid splash}",
-								"{@spell acid splash}",
-								"{@spell acid splash}"
-							]
-						},
-						"1": {
-							"spells": [
-								"{@spell alarm}"
-							],
-							"slots": 4
-						},
-						"2": {
-							"spells": [
-								"{@spell spray of cards|BMT}"
-							],
-							"slots": 3
-						},
-						"3": {
-							"spells": [
-								"{@spell antagonize|BMT}"
-							],
-							"slots": 3
-						},
-						"4": {
-							"spells": [
-								"{@spell spirit of death|BMT}"
-							],
-							"slots": 3
-						},
-						"5": {
-							"spells": [
-								"{@spell summon draconic spirit|FTD}"
-							],
-							"slots": 1
-						}
-					},
-					"type": "spellcasting"
-				}
-			],
-			"spellcastingTags": [
-				"O"
-			],
-			"damageTags": [
-				"P",
-				"S"
-			],
-			"damageTagsSpell": [
-				"A",
-				"O",
-				"Y"
-			],
-			"savingThrowForced": [
-				"constitution"
-			],
-			"savingThrowForcedSpell": [
-				"dexterity",
-				"wisdom"
+			},
+			"type": "spellcasting"
+		}
+	],
+	"spellcastingTags": [
+		"O"
+	],
+	"bonus": [
+		{
+			"name": "Channel Divinity: Turn Undead",
+			"entries": [
+				"Each undead that can see or hear Korth within 30 feet of him must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.",
+				"A turned creature must spend its turns trying to move as far away from Korth as it can, and it can't willingly move to a space within 30 feet of him. It also can't take reactions. For its action, it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the {@action Dodge} action.",
+				"Korth can use his Channel Divinity abilities only twice per short or long rest."
+			]
+		},
+		{
+			"name": "Channel Divinity: Harness Divine Power (2/Long Rest)",
+			"entries": [
+				"Korth touches his holy symbol, utters a prayer, and regains one expended spell slot up to level 1.",
+				"Korth can use his Channel Divinity abilities only twice per short or long rest."
 			]
 		}
+	],
+	"damageTags": [
+		"P",
+		"S"
+	],
+	"damageTagsSpell": [
+		"A",
+		"O",
+		"R"
+	],
+	"savingThrowForced": [
+		"constitution"
+	],
+	"savingThrowForcedSpell": [
+		"dexterity"
+	]
+}
 	]
 }
