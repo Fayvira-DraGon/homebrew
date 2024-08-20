@@ -2,16 +2,21 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "FHR",
+				"json": "FayvirasHomebrewsRules",
 				"abbreviation": "FHR",
 				"full": "Fayvira's Homebrews & Rules",
 				"version": "1.0.0",
-				"url": "https://github.com/Fayvira-DraGon/homebrew.git",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"authors": [
+					"Fayvira"
+				],
+				"convertedBy": [
 					"Fayvira"
 				]
 			}
-		]
+		],
+		"dateAdded": 1724137996,
+		"dateLastModified": 1724137996
 	},
 	"item": [
 		{
