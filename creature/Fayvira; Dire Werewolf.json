@@ -2,7 +2,7 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "FayvirasHomebrewsRules",
+				"json": "FHR",
 				"abbreviation": "FHR",
 				"full": "Fayvira's Homebrews & Rules",
 				"version": "1.0.0",
@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724032620,
-		"dateLastModified": 1724138973
+		"dateLastModified": 1724139772
 	},
 	"monster": [
 		{
