@@ -70,7 +70,7 @@
 					"type": "entries",
 					"name": "Natural Armor",
 					"entries": [
-						"You have tough, scaly skin. Your scales function as natural armor, granting you a +3 bonus to Armor Class."
+						"You have tough, scaly skin. When you aren't wearing armor, your base AC is 13 + Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
 					]
 				}
 			],
