@@ -16,12 +16,12 @@
 			}
 		],
 		"dateAdded": 1724102040,
-		"dateLastModified": 1724139118
+		"dateLastModified": 1724139357
 	},
 	"item": [
 		{
 			"name": "Amethyst of Many Sizes",
-			"source": "FHR",
+			"source": "FayvirasHomebrewsRules",
 			"rarity": "rare",
 			"reqAttune": true,
 			"wondrous": true,
