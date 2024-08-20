@@ -123,9 +123,7 @@
 				{
 					"name": "Alert (Feat)",
 					"entries": [
-						"Korth has a +5 bonus to initiative.",
-						"Korth can't be {@condition surprised} while he is conscious.",
-						"Other creatures don't gain advantage on attack rolls against Korth as a result of being unseen by him."
+						"Korth has a +5 bonus to initiative, he can't be {@condition surprised} while he is conscious, and other creatures don't gain advantage on attack rolls against Korth as a result of being unseen by him."
 					]
 				},
 				{
@@ -370,11 +368,6 @@
 						"Korth touches his holy symbol, utters a prayer, and regains one expended spell slot up to level 2.",
 						"Korth can use his Channel Divinity abilities only twice per short or long rest."
 					]
-				}
-			],
-			"conditionImmune": [
-				{
-					"special": "surprised while conscious"
 				}
 			],
 			"damageTags": [
