@@ -16,12 +16,12 @@
 			}
 		],
 		"dateAdded": 1724048340,
-		"dateLastModified": 1724139017
+		"dateLastModified": 1724139464
 	},
 	"monster": [
 		{
 			"name": "Blaire Bonilla",
-			"source": "FHR",
+			"source": "FayvirasHomebrewsRules",
 			"group": [
 				"Dire Lycanthropes",
 				"Dire Werewolf"
