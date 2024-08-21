@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724022360,
-		"dateLastModified": 1724139737
+		"dateLastModified": 1724201591
 	},
 	"monster": [
 		{
@@ -45,14 +45,14 @@
 			],
 			"ac": [
 				{
-					"ac": 15,
+					"ac": 17,
 					"from": [
 						"unarmored defense"
 					],
 					"condition": "in humanoid form"
 				},
 				{
-					"ac": 17,
+					"ac": 19,
 					"from": [
 						"natural armor",
 						"unarmored defense"
@@ -70,19 +70,19 @@
 					"condition": "(65 ft. in dire wolf form)"
 				}
 			},
-			"str": 16,
+			"str": 15,
 			"dex": 16,
 			"con": 9,
 			"int": 14,
-			"wis": 16,
-			"cha": 11,
+			"wis": 18,
+			"cha": 10,
 			"skill": {
-				"athletics": "+6",
+				"athletics": "+5",
 				"history": "+5",
 				"stealth": "+6",
-				"perception": "+9"
+				"perception": "+10"
 			},
-			"passive": 19,
+			"passive": 20,
 			"immune": [
 				{
 					"immune": [
@@ -109,12 +109,6 @@
 					]
 				},
 				{
-					"name": "Stunning Strike  {@recharge 5}",
-					"entries": [
-						"When Blyana hits a target with a melee weapon attack, the target must succeed on a {@dc 14} Constitution saving throw or be {@condition stunned} until the end of Blyana's next turn."
-					]
-				},
-				{
 					"name": "Unarmored Defense",
 					"entries": [
 						"While Blyana is wearing no armor and wielding no shield, her AC includes her Wisdom modifier."
@@ -130,6 +124,18 @@
 					"name": "Speak with Wolves",
 					"entries": [
 						"Blyana can communicate with wolves as if they shared a language."
+					]
+				},
+				{
+					"name": "Ki",
+					"entries": [
+						"Blyana has 6 ki points per short or long rest. Her ki-powered ability saving throws are {@dc 15}."
+					]
+				},
+				{
+					"name": "Focused Aim (1-3 Ki Points)",
+					"entries": [
+						"When Blyana misses with an attack roll, she can spend 1 to 3 ki points to increase her attack roll by 2 for each of these ki points she spends, potentially turning the miss into a hit."
 					]
 				}
 			],
@@ -155,25 +161,41 @@
 				{
 					"name": "+1 Silvered Knuckles (Humanoid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. This is a magic and silvered weapon attack. If the target is a creature, Blyana can choose one of the following additional effects:",
+						{
+							"type": "list",
+							"style": "bullet",
+							"items": [
+								{
+									"type": "item",
+									"entry": "The target must succeed on a {@dc 15} Dexterity saving throw or be knocked {@condition prone}."
+								},
+								{
+									"type": "item",
+									"entry": "The target must succeed on a {@dc 15} Strength saving throw or be pushed up to 15 feet away."
+								},
+								{
+									"type": "item",
+									"entry": "The target can't take reactions until the end of Blyana's next turn."
+								},
+								{
+									"type": "item",
+									"entry": "The target must succeed on a {@dc 15} Constitution saving throw or be {@condition stunned} until the end of Blyana's next turn."
+								}
+							]
+						}
 					]
 				},
 				{
-					"name": "Astral Unarmed Strike (Arms of the Astral Self Only)",
-					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 10 ft. on her turn (or 5 ft.), one target. {@h}6 ({@damage 1d6 + 3}) force damage. This is a magic weapon attack."
-					]
-				},
-				{
-					"name": "Quickened Healing {@recharge 6}",
+					"name": "Quickened Healing (2 Ki Points)",
 					"entries": [
 						"Blyana regains 6 ({@damage 1d6 + 3}) hit points"
 					]
 				},
 				{
-					"name": "Unarmed Strike",
+					"name": "Wholeness of Body (1/Long Rest)",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage. This is a magic weapon attack."
+						"Blyana regains 18 hit points."
 					]
 				}
 			],
@@ -187,7 +209,6 @@
 			"miscTags": [
 				"MW",
 				"CUR",
-				"RCH",
 				"RW"
 			],
 			"hasFluff": true,
@@ -280,7 +301,7 @@
 				]
 			},
 			"save": {
-				"str": "+6",
+				"str": "+5",
 				"dex": "+6"
 			},
 			"resist": [
@@ -296,15 +317,7 @@
 			],
 			"bonus": [
 				{
-					"name": "Arms of the Astral Self {@recharge 5}",
-					"entries": [
-						"Blyana summons spectral arms that hover near her shoulders for 10 minutes, and they vanish if she is {@condition incapacitated} or dies.",
-						"Each creature of Blyana's choice that she can see within 10 feet of her must succeed on a {@dc 14} Dexterity saving throw or take 9 ({@damage 2d8}) force damage.",
-						"Blyana can use her Wisdom in place of her Strength when making Strength checks/saving throws."
-					]
-				},
-				{
-					"name": "Flurry of Blows {@recharge 5}",
+					"name": "Flurry of Blows (1 Ki Point)",
 					"entries": [
 						"Immediately after taking the Attack action on her turn, Blyana makes two Unarmed Strikes."
 					]
@@ -312,47 +325,25 @@
 				{
 					"name": "Martial Arts",
 					"entries": [
-						"Immediately after taking the Attack action on her turn, Blyana makes one Unarmed Strike."
+						"Immediately after taking the Attack action on her turn, Blyana makes one unarmed strike."
 					]
 				},
 				{
-					"name": "Patient Defense {@recharge 5}",
+					"name": "Patient Defense (1 Ki Point)",
 					"entries": [
 						"Blyana takes the Dodge action."
 					]
 				},
 				{
-					"name": "Step of the Wind {@recharge 5}",
+					"name": "Step of the Wind (1 Ki Point)",
 					"entries": [
 						"Blyana takes the Disengage or Dash action, and her jump distance is doubled for the turn."
 					]
 				},
 				{
-					"name": "Visage of the Astral Self {@recharge 5}",
+					"name": "Ki-Fueled Attack",
 					"entries": [
-						"Blyana summons a spectral mask that covers her face for 10 minutes, and it vanishes if she is {@condition incapacitated} or dies.",
-						"While Blyana's spectral visage is present, she gains the following benefits:",
-						{
-							"type": "list",
-							"style": "list-hang-notitle",
-							"items": [
-								{
-									"type": "item",
-									"name": "Astral Sight",
-									"entry": "Blyana can see normally in darkness, both magical and nonmagical, to a distance of 120 feet."
-								},
-								{
-									"type": "item",
-									"name": "Wisdom of the Spirit",
-									"entry": "Blyana has advantage on Wisdom (Insight) and Charisma (Intimidation) checks."
-								},
-								{
-									"type": "item",
-									"name": "Word of the Spirit",
-									"entry": "When Blyana speaks, she can direct her words to a creature of her choice that she can see within 60 feet of her, making it so only that creature can hear her. Alternatively, she can amplify her voice so that all creatures within 600 feet can hear her."
-								}
-							]
-						}
+						"If Blyana spends 1 ki point or more as part of her action on her turn, she can make one attack with an unarmed strike or a monk weapon as a bonus action before the end of the turn."
 					]
 				}
 			],
@@ -368,16 +359,23 @@
 							"items": [
 								{
 									"type": "item",
-									"name": "Deflected Missile {@recharge 5}",
-									"entry": "{@atk rw} {@hit 6} to hit, range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) damage of ammunition's type. This is a magic weapon attack."
+									"name": "Deflected Missile (1 Ki Point)",
+									"entry": "{@atk rw} {@hit 6} to hit, range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) damage of ranged weapon's type."
 								}
 							]
 						}
+					]
+				},
+				{
+					"name": "Slow Fall",
+					"entries": [
+						"When Blyana falls, she can reduce any falling damage she takes by 30 points of damage."
 					]
 				}
 			],
 			"isNpc": true,
 			"conditionInflict": [
+				"prone",
 				"stunned"
 			],
 			"languages": [
@@ -393,15 +391,16 @@
 				"type": "external",
 				"url": "https://i.imgur.com/jCCqdTI.png"
 			},
+			"isNamedCreature": true,
 			"damageTags": [
 				"B",
-				"O",
 				"P",
 				"S"
 			],
 			"savingThrowForced": [
 				"constitution",
-				"dexterity"
+				"dexterity",
+				"strength"
 			]
 		}
 	]
