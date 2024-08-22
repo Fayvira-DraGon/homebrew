@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724048340,
-		"dateLastModified": 1724139797
+		"dateLastModified": 1724285086
 	},
 	"monster": [
 		{
@@ -340,7 +340,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://i.imgur.com/nzvgLjS.png"
+							"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/creature/Blaire-Bonilla-Dire-Wolf.webp"
 						}
 					}
 				]
