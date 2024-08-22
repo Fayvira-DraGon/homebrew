@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724048340,
-		"dateLastModified": 1724302986
+		"dateLastModified": 1724304044
 	},
 	"monster": [
 		{
@@ -392,8 +392,18 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/creature/Blaire Bonilla Token.gif"
+				"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/creature/Blaire Bonilla Humanoid Token.webp"
 			},
+			"altArt": [
+				{
+					"name": "Blaire Bonilla Hybrid Form",
+					"source": "FHR",
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/creature/Blaire Bonilla Hybrid Token.webp"
+					}
+				}
+			],
 			"damageTags": [
 				"B",
 				"N",
