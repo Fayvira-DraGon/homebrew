@@ -402,6 +402,14 @@
 						"type": "external",
 						"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/creature/Blaire Bonilla Hybrid Token.webp"
 					}
+				},
+				{
+					"name": "Blaire Bonilla Dire Wolf Form",
+					"source": "FHR",
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/creature/Blaire Bonilla Dire Wolf Token.webp"
+					}
 				}
 			],
 			"damageTags": [
