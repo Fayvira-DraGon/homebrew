@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724048340,
-		"dateLastModified": 1724304044
+		"dateLastModified": 1724306425
 	},
 	"monster": [
 		{
@@ -340,7 +340,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/creature/Blaire Bonilla Dire Wolf.webp"
+							"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/creature/Blaire Bonilla Wolf.webp"
 						}
 					}
 				]
@@ -392,7 +392,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/creature/Blaire Bonilla Humanoid Token.webp"
+				"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/token/Blaire Bonilla Humanoid Token.webp"
 			},
 			"altArt": [
 				{
@@ -400,7 +400,7 @@
 					"source": "FHR",
 					"tokenHref": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/creature/Blaire Bonilla Hybrid Token.webp"
+						"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/token/Blaire Bonilla Hybrid Token.webp"
 					}
 				},
 				{
@@ -408,7 +408,7 @@
 					"source": "FHR",
 					"tokenHref": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/creature/Blaire Bonilla Dire Wolf Token.webp"
+						"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/token/Blaire Bonilla Dire Wolf Token.webp"
 					}
 				}
 			],
