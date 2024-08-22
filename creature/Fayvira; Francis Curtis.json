@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724040360,
-		"dateLastModified": 1724139819
+		"dateLastModified": 1724307294
 	},
 	"monster": [
 		{
@@ -247,21 +247,21 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://i.imgur.com/vPkfxAG.png"
+							"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/creature/Francis Curtis Humanoid.webp"
 						}
 					},
 					{
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://i.imgur.com/gTDbX5f.png"
+							"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/creature/Francis Curtis Hybrid.webp"
 						}
 					},
 					{
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://i.imgur.com/6K3GbKZ.png"
+							"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/creature/Francis Curtis Wolf.webp"
 						}
 					}
 				]
@@ -302,8 +302,26 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://i.imgur.com/q4Kk88J.png"
+				"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/token/Francis Curtis Humanoid Token.webp"
 			},
+			"altArt": [
+				{
+					"name": "Francis Curtis Hybrid Form",
+					"source": "FHR",
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/token/Francis Curtis Hybrid Token.webp"
+					}
+				},
+				{
+					"name": "Blyana Curtis Wolf Form",
+					"source": "FHR",
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/token/Francis Curtis Wolf Token.webp"
+					}
+				}
+			],
 			"save": {
 				"str": "+8",
 				"con": "+8"
