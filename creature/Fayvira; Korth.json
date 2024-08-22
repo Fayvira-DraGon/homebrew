@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724121600,
-		"dateLastModified": 1724139671
+		"dateLastModified": 1724307051
 	},
 	"monster": [
 		{
@@ -252,21 +252,21 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://i.imgur.com/cnYqAIo.png"
+							"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/creature/Korth Humanoid.webp"
 						}
 					},
 					{
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://i.imgur.com/7ZZtiuW.png"
+							"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/creature/Korth Hybrid.webp"
 						}
 					},
 					{
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://i.imgur.com/IOKmTzB.png"
+							"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/creature/Korth Wolf.webp"
 						}
 					}
 				]
@@ -276,10 +276,6 @@
 				"cha": "+3"
 			},
 			"isNpc": true,
-			"tokenHref": {
-				"type": "external",
-				"url": "https://i.imgur.com/8GDJZiU.png"
-			},
 			"senses": [
 				"darkvision 120 ft."
 			],
@@ -391,6 +387,28 @@
 				"constitution",
 				"dexterity",
 				"wisdom"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/token/Korth Humanoid Token.webp"
+			},
+			"altArt": [
+				{
+					"name": "Korth Hybrid Form",
+					"source": "FHR",
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/token/Korth Hybrid Token.webp"
+					}
+				},
+				{
+					"name": "Korth Wolf Form",
+					"source": "FHR",
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/token/Korth Wolf Token.webp"
+					}
+				}
 			]
 		}
 	]
