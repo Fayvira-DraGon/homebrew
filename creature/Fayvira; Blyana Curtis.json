@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724022360,
-		"dateLastModified": 1724201591
+		"dateLastModified": 1724306839
 	},
 	"monster": [
 		{
@@ -267,35 +267,21 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://i.imgur.com/8x4CJd4.png"
+							"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/creature/Blyana Curtis Humanoid.webp"
 						}
 					},
 					{
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://i.imgur.com/AZIVCp8.png"
+							"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/creature/Blyana Curtis Hybrid.webp"
 						}
 					},
 					{
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://i.imgur.com/hFq5VGp.png"
-						}
-					},
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://i.imgur.com/f3PhnxL.png"
-						}
-					},
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://i.imgur.com/S9h0zJj.png"
+							"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/creature/Blyana Curtis Wolf.webp"
 						}
 					}
 				]
@@ -389,8 +375,26 @@
 			"uniqueId": "aca7f17c-9f62-461e-93c7-b99c5f16e2dd",
 			"tokenHref": {
 				"type": "external",
-				"url": "https://i.imgur.com/jCCqdTI.png"
+				"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/token/Blyana Curtis Humanoid Token.webp"
 			},
+			"altArt": [
+				{
+					"name": "Blyana Curtis Hybrid Form",
+					"source": "FHR",
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/token/Blyana Curtis Hybrid Token.webp"
+					}
+				},
+				{
+					"name": "Blaire Bonilla Dire Wolf Form",
+					"source": "FHR",
+					"tokenHref": {
+						"type": "external",
+						"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/token/Blyana Curtis Wolf Token.webp"
+					}
+				}
+			],
 			"isNamedCreature": true,
 			"damageTags": [
 				"B",
