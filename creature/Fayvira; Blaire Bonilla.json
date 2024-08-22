@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724048340,
-		"dateLastModified": 1724306425
+		"dateLastModified": 1724307181
 	},
 	"monster": [
 		{
@@ -408,7 +408,7 @@
 					"source": "FHR",
 					"tokenHref": {
 						"type": "external",
-						"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/token/Blaire Bonilla Dire Wolf Token.webp"
+						"url": "https://raw.githubusercontent.com/Fayvira-DraGon/homebrew-img/main/img/FHR/token/Blaire Bonilla Wolf Token.webp"
 					}
 				}
 			],
