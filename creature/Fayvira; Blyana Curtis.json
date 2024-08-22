@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724022360,
-		"dateLastModified": 1724306839
+		"dateLastModified": 1724307105
 	},
 	"monster": [
 		{
@@ -387,7 +387,7 @@
 					}
 				},
 				{
-					"name": "Blaire Bonilla Dire Wolf Form",
+					"name": "Blyana Curtis Wolf Form",
 					"source": "FHR",
 					"tokenHref": {
 						"type": "external",
