@@ -16,14 +16,14 @@
 			}
 		],
 		"dateAdded": 1724121600,
-		"dateLastModified": 1724385828
+		"dateLastModified": 1724386654
 	},
 	"monster": [
 		{
 			"name": "Korth",
 			"group": [
 				"Lycanthropes",
-				"werewolf"
+				"Werewolf"
 			],
 			"source": "FHR",
 			"size": [
@@ -365,7 +365,7 @@
 					"name": "Channel Divinity: Turn Undead",
 					"entries": [
 						"Each undead that can see or hear Korth within 30 feet of him must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage. If the creature that fails its saving throw is CR 1 or lower, it is instead instantly destroyed.",
-						"A turned creature must spend its turns trying to move as far away from Korth as it can, and it can't willingly move to a space within 30 feet of him. It also can't take reactions. For its action, it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the {@action Dodge} action.",
+						"A turned creature must spend its turns trying to move as far away from Korth as it can, and it can't willingly move to a space within 30 feet of him. It also can't take reactions. For its action, it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the {@action Dodge} action."
 					]
 				},
 				{
