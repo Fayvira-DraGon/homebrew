@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724022360,
-		"dateLastModified": 1724307105
+		"dateLastModified": 1724440538
 	},
 	"monster": [
 		{
@@ -121,7 +121,13 @@
 					]
 				},
 				{
-					"name": "Speak with Wolves",
+					"name": "Natural Armor",
+					"entries": [
+						"Blyana has a +2 bonus to AC while in wolf or hybrid form."
+					]
+				},
+				{
+					"name": "Wolf Empathy",
 					"entries": [
 						"Blyana can communicate with wolves as if they shared a language."
 					]
@@ -189,7 +195,7 @@
 				{
 					"name": "Quickened Healing (2 Ki Points)",
 					"entries": [
-						"Blyana regains 6 ({@damage 1d6 + 3}) hit points"
+						"Blyana regains 6 ({@damage 1d6 + 3}) hit points."
 					]
 				},
 				{
