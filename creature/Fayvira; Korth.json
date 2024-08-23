@@ -16,13 +16,14 @@
 			}
 		],
 		"dateAdded": 1724121600,
-		"dateLastModified": 1724365279
+		"dateLastModified": 1724385828
 	},
 	"monster": [
 		{
 			"name": "Korth",
 			"group": [
-				"Lycanthropes"
+				"Lycanthropes",
+				"werewolf"
 			],
 			"source": "FHR",
 			"size": [
@@ -46,6 +47,13 @@
 				{
 					"ac": 15,
 					"from": [
+						"{@item chain shirt|phb}"
+					]
+				},
+				{
+					"ac": 17,
+					"from": [
+						"natural armor",
 						"{@item chain shirt|phb}"
 					]
 				}
@@ -90,7 +98,7 @@
 			],
 			"languages": [
 				"Common (can't speak in wolf form)",
-				"Primordial"
+				"Primordial (can't speak in wolf form)"
 			],
 			"cr": "10",
 			"trait": [
@@ -153,7 +161,7 @@
 				{
 					"name": "Bite (Wolf or Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage. If the target is a humanoid, it must succeed on a {@dc 12} Constitution saving throw or be cursed with werewolf lycanthropy."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage. If the target is a humanoid, it must succeed on a {@dc 14} Constitution saving throw or be cursed with werewolf lycanthropy."
 					]
 				},
 				{
@@ -171,8 +179,7 @@
 				{
 					"name": "Channel Divinity: Preserve Life",
 					"entries": [
-						"Korth chooses any living or non construct creatures within 30 feet of him to divide 45 hit points among them, but this healing cannot restore a creature to more than half of their hit point maximum.",
-						"Korth can use his Channel Divinity abilities only twice per short or long rest."
+						"Korth chooses any living or non construct creatures within 30 feet of him to divide 45 hit points among them, but this healing cannot restore a creature to more than half of their hit point maximum."
 					]
 				}
 			],
