@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724121600,
-		"dateLastModified": 1724390022
+		"dateLastModified": 1724390162
 	},
 	"monster": [
 		{
@@ -117,7 +117,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Korth is attuned to an {@item emerald of the sizeshifter|fhr} and wears {@item goggles of night|dmg} (extended darkvision included in senses). He also wields the sentient longsword, {@item steel|wbtw}."
+						"Korth is attuned to an {@item emerald of the barded shapechanger|fhr} and wears {@item goggles of night|dmg} (extended darkvision included in senses). He also wields the sentient longsword, {@item steel|wbtw}."
 					]
 				},
 				{
