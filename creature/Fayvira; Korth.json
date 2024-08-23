@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724121600,
-		"dateLastModified": 1724386654
+		"dateLastModified": 1724388537
 	},
 	"monster": [
 		{
@@ -139,15 +139,21 @@
 					]
 				},
 				{
+					"name": "Blessed Strike",
+					"entries": [
+						"When a creature takes damage from one of Korth's cantrips or weapon attacks, he can also deal {@damage 1d8} radiant damage to that creature. Once he deals this damage, he can't use this feature again until the start of his next turn."
+					]
+				},
+				{
 					"name": "Blessed Healer",
 					"entries": [
 						"When Korth casts a spell of 1st level or higher that restores hit points to a creature other than himself, he regains hit points equal to 2 + the spell's level."
 					]
 				},
 				{
-					"name": "Blessed Strike",
+					"name": "Channel Divinity",
 					"entries": [
-						"When a creature takes damage from one of Korth's cantrips or weapon attacks, he can also deal {@damage 1d8} radiant damage to that creature. Once he deals this damage, he can't use this feature again until the start of his next turn."
+						"Korth touches his holy symbol, utters a prayer, and channels divine energy directly from his deity to fuel magical effects. Korth channels this divinity up to twice per short or long rest."
 					]
 				}
 			],
@@ -371,7 +377,7 @@
 				{
 					"name": "Channel Divinity: Harness Divine Power (2/Long Rest)",
 					"entries": [
-						"Korth touches his holy symbol, utters a prayer, and regains one expended spell slot up to level 2.",
+						"Korth regains one expended spell slot up to level 2."
 					]
 				}
 			],
