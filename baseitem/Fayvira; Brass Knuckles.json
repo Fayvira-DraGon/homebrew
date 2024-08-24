@@ -16,11 +16,11 @@
 			}
 		],
 		"dateAdded": 1724529310,
-		"dateLastModified": 1724529310
+		"dateLastModified": 1724529399
 	},
 	"baseitem": [
 		{
-			"name": "Brass knuckles",
+			"name": "Brass Knuckles",
 			"source": "FHR",
 			"type": "M",
 			"rarity": "none",
