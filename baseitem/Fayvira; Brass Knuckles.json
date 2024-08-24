@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724529310,
-		"dateLastModified": 1724529725
+		"dateLastModified": 1724529808
 	},
 	"baseitem": [
 		{
@@ -36,14 +36,14 @@
 			"dmg2": "1d6",
 			"weapon": true,
 			"entries": [
+				"This held weapon is a single piece of metal designed to be worn around the knuckles of a humanoid hand. In order to use the versatile property of this weapon, then you must use a pair of them, one in each hand.",
 				{
 					"type": "entries",
 					"name": "Special",
 					"entries": [
 						"Weapon attacks made with this weapon count as unarmed strikes."
 					]
-				},
-				"This held weapon is a single piece of metal designed to be worn around the knuckles of a humanoid hand. In order to use the versatile property of this weapon, then you must use a pair of them, one in each hand."
+				}
 			]
 		}
 	]
