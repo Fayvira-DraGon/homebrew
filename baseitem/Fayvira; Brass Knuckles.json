@@ -1,0 +1,42 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "FHR",
+				"abbreviation": "FHR",
+				"full": "Fayvira's Homebrews & Rules",
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"authors": [
+					"Fayvira"
+				],
+				"convertedBy": [
+					"Fayvira"
+				]
+			}
+		],
+		"dateAdded": 1724529310,
+		"dateLastModified": 1724529310
+	},
+	"baseitem": [
+		{
+			"name": "Brass knuckles",
+			"source": "FHR",
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 200,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"dmg2": "1d6",
+			"weapon": true,
+			"entries": [
+				"This held weapon is a single piece of metal designed to be worn around the knuckles of a humanoid hand. In order to use the versatile property of this weapon, then you must use a pair of them, one in each hand."
+			]
+		}
+	]
+}
