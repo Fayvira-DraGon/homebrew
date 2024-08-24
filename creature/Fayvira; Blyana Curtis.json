@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724022360,
-		"dateLastModified": 1724440538
+		"dateLastModified": 1724532137
 	},
 	"monster": [
 		{
@@ -143,6 +143,12 @@
 					"entries": [
 						"When Blyana misses with an attack roll, she can spend 1 to 3 ki points to increase her attack roll by 2 for each of these ki points she spends, potentially turning the miss into a hit."
 					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Blyana wields a {@item +1 weapon|dmg|+1} {@item silvered weapon|phb|silvered} {@item brass knuckles|fhr|brass knuckles}."
+					]
 				}
 			],
 			"action": [
@@ -165,9 +171,9 @@
 					]
 				},
 				{
-					"name": "+1 Silvered Knuckles (Humanoid Form Only)",
+					"name": "{@item +1 weapon|dmg|+1} {@item silvered weapon|phb|silvered} {@item brass knuckles|fhr|brass knuckles} (Humanoid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. This is a magic and silvered weapon attack. If the target is a creature, Blyana can choose one of the following additional effects:",
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage. This is a magic and silvered weapon attack. If the target is a creature, Blyana can choose one of the following additional effects:",
 						{
 							"type": "list",
 							"style": "bullet",
