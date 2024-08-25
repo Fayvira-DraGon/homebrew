@@ -1,0 +1,33 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "FHR",
+				"abbreviation": "FHR",
+				"full": "Fayvira's Homebrews & Rules",
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"authors": [
+					"Fayvira"
+				],
+				"convertedBy": [
+					"Fayvira"
+				]
+			}
+		],
+		"dateAdded": 1724102040,
+		"dateLastModified": 1724625953
+	},
+	"item": [
+		{
+			"name": "Amethyst of the Sizeshifter's Weapon",
+			"source": "FHR",
+			"rarity": "rare",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"Etched with primordial runes, this 1-inch-diameter uncut amethyst allows you to use an action to adjust how a {@filter simple or martial weapon|items|type=simple weapon;martial weapon|category=} is sized. For this property to work, you must attach the amethyst to the weapon by pressing the amethyst against it for at least 10 minutes. Attached weapons are immune to effects that change how it is sized. Thereafter, the amethyst can't be removed unless you detach it as an action or the item is destroyed. Not even an {@spell antimagic field} causes it to fall off. The amethyst does fall off the weapon if your attunement to the amethyst ends. A weapon returns to its original size if the amethyst is no longer attached to it."
+			]
+		}
+	]
+}
