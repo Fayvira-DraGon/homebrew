@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724032620,
-		"dateLastModified": 1724139772
+		"dateLastModified": 1724556770
 	},
 	"monster": [
 		{
@@ -204,14 +204,21 @@
 											"A lycanthrope can either resist its curse or embrace it. By resisting the curse, a lycanthrope retains its normal alignment and personality while in humanoid form. It lives its life as it always has, burying deep the bestial urges raging inside it. However, when the full moon rises, the curse becomes too strong to resist, transforming the individual into its beast form-or into a horrible hybrid form that combines animal and humanoid traits. When the moon wanes, the beast within can be controlled once again. Especially if the cursed creature is unaware of its condition, it might not remember the events of its transformation, though those memories often haunt a lycanthrope as bloody dreams.",
 											"Some individuals see little point in fighting the curse and accept what they are. With time and experience, they learn to master their shapechanging ability and can assume beast form or hybrid form at will. Most lycanthropes that embrace their bestial natures succumb to bloodlust, becoming evil, opportunistic creatures that prey on the weak."
 										]
+									},
+									{
+										"type": "entries",
+										"name": "Dire Lycanthrope",
+										"entries": [
+											"A natural variant of the lycanthrope, a dire lycanthrope's animal form is the ancient dire version of the normal lycanthrope's animal form, and the hybrid form is always the same size as the animal form. A dire lycanthrope can manifest as the offspring of a powerful lycanthrope or from those bitten by a dire lycanthrope. Dire lycanthrope are more resistant to magic and silver than their normal counter-parts, their hides are thicker, their bodies tougher, and their cursed attacks naturally carry the properties of magic and silvered weapons. They maintain their ability to speak in their animal form, as well as gain the ability to speak with members of their animal form's species."
+										]
 									}
 								]
 							},
 							{
 								"type": "inset",
-								"name": "Player Characters as Lycanthropes",
+								"name": "Player Characters as Dire Lycanthropes",
 								"entries": [
-									"A character who becomes a lycanthrope retains his or her statistics except as specified by lycanthrope type. The character gains the lycanthrope's speeds in non-humanoid form, damage immunities, traits, and actions that don't involve equipment. The character is proficient with the lycanthrope's natural attacks, such as its bite or claws, which deal damage as shown in the lycanthrope's statistics. The character can't speak while in animal form.",
+									"A character who becomes a dire lycanthrope retains their statistics except as specified by dire lycanthrope type. The character gains the dire lycanthrope's speeds in non-humanoid form, damage immunities, damage resistances, traits, and actions that don't involve equipment. The character is proficient with the lycanthrope's natural attacks, such as its bite or claws, which deal damage as shown in the lycanthrope's statistics and count as both magical and silvered for the purpose of overcoming resistance and immunity to nonmagical or silvered attacks and damage. The character can speak while in animal form.",
 									"A non-lycanthrope humanoid hit by an attack that carries the curse of lycanthropy must succeed on a Constitution saving throw (DC 8 + the lycanthrope's proficiency bonus + the lycanthrope's Constitution modifier) or be cursed. If the character embraces the curse, his or her alignment becomes the one defined for the lycanthrope. The DM is free to decide that a change in alignment places the character under DM control until the curse of lycanthropy is removed.",
 									"The following information applies to specific lycanthropes.",
 									{
