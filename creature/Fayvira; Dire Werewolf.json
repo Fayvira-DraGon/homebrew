@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724032620,
-		"dateLastModified": 1724556770
+		"dateLastModified": 1724625143
 	},
 	"monster": [
 		{
@@ -207,9 +207,9 @@
 									},
 									{
 										"type": "entries",
-										"name": "Dire Lycanthrope",
+										"name": "Dire Lycanthropes",
 										"entries": [
-											"A natural variant of the lycanthrope, a dire lycanthrope's animal form is the ancient dire version of the normal lycanthrope's animal form, and the hybrid form is always the same size as the animal form. A dire lycanthrope can manifest as the offspring of a powerful lycanthrope or from those bitten by a dire lycanthrope. Dire lycanthrope are more resistant to magic and silver than their normal counter-parts, their hides are thicker, their bodies tougher, and their cursed attacks naturally carry the properties of magic and silvered weapons. They maintain their ability to speak in their animal form, as well as gain the ability to speak with members of their animal form's species."
+											"A natural variant of the lycanthrope, a dire lycanthrope's animal form is the ancient dire version of the normal lycanthrope's animal form, and the hybrid form is always the same size as the animal form. A dire lycanthrope can manifest as the offspring of a powerful lycanthrope or from those bitten by a dire lycanthrope. Dire lycanthrope are more resistant to magic and silver than their normal counter-parts, their hides are thicker, their bodies tougher, and their cursed attacks are naturally considered magic and silvered attacks. They maintain their ability to speak in their animal form, as well as gain the ability to speak with members of their animal form's species."
 										]
 									}
 								]
@@ -218,29 +218,29 @@
 								"type": "inset",
 								"name": "Player Characters as Dire Lycanthropes",
 								"entries": [
-									"A character who becomes a dire lycanthrope retains their statistics except as specified by dire lycanthrope type. The character gains the dire lycanthrope's speeds in non-humanoid form, damage immunities, damage resistances, traits, and actions that don't involve equipment. The character is proficient with the lycanthrope's natural attacks, such as its bite or claws, which deal damage as shown in the lycanthrope's statistics and count as both magical and silvered for the purpose of overcoming resistance and immunity to nonmagical or silvered attacks and damage. The character can speak while in animal form.",
+									"A character who becomes a dire lycanthrope retains their statistics except as specified by dire lycanthrope type. The character gains the dire lycanthrope's speeds in non-humanoid form, damage immunities, damage resistances, traits, and actions that don't involve equipment. The character is proficient with the lycanthrope's natural attacks, such as its bite or claws, which deal damage as shown in the lycanthrope's statistics, and their curse carrying attacks count as both magical and silvered for the purpose of overcoming resistance and immunity to nonmagical or silvered attacks and damage. The character can speak while in animal form.",
 									"A non-lycanthrope humanoid hit by an attack that carries the curse of lycanthropy must succeed on a Constitution saving throw (DC 8 + the lycanthrope's proficiency bonus + the lycanthrope's Constitution modifier) or be cursed. If the character embraces the curse, his or her alignment becomes the one defined for the lycanthrope. The DM is free to decide that a change in alignment places the character under DM control until the curse of lycanthropy is removed.",
-									"The following information applies to specific lycanthropes.",
+									"The following information applies to specific dire lycanthropes.",
 									{
 										"type": "entries",
 										"entries": [
 											{
 												"type": "entries",
-												"name": "{@creature Werebear}",
+												"name": "{@creature Dire Werebear}",
 												"entries": [
-													"The character gains a Strength of 19 if his or her score isn't already higher, and a +1 bonus to AC while in bear or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
+													"The character gains a Strength of 19 if his or her score isn't already higher, and a +2 bonus to AC while in dire bear or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
 												]
 											},
 											{
 												"type": "entries",
-												"name": "{@creature Wereboar}",
+												"name": "{@creature Dire Wereboar}",
 												"entries": [
-													"The character gains a Strength of 17 if his or her score isn't already higher, and a +1 bonus to AC while in boar or hybrid form (from natural armor). Attack and damage rolls for the tusks are based on Strength. For the Charge trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
+													"The character gains a Strength of 17 if his or her score isn't already higher, and a +2 bonus to AC while in dire boar or hybrid form (from natural armor). Attack and damage rolls for the tusks are based on Strength. For the Charge trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
 												]
 											},
 											{
 												"type": "entries",
-												"name": "{@creature Wererat}",
+												"name": "{@creature Dire Wererat}",
 												"entries": [
 													"The character gains a Dexterity of 15 if his or her score isn't already higher. Attack and damage rolls for the bite are based on whichever is higher of the character's Strength and Dexterity."
 												]
@@ -254,9 +254,9 @@
 											},
 											{
 												"type": "entries",
-												"name": "{@creature Werewolf}",
+												"name": "{@creature Dire Werewolf}",
 												"entries": [
-													"The character gains a Strength of 15 if his or her score isn't already higher, and a +1 bonus to AC while in wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
+													"The character gains a Strength of 15 if his or her score isn't already higher, and a +2 bonus to AC while in dire wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
 												]
 											}
 										]
