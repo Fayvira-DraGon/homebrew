@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724022360,
-		"dateLastModified": 1724532137
+		"dateLastModified": 1724544900
 	},
 	"monster": [
 		{
@@ -357,7 +357,7 @@
 							"items": [
 								{
 									"type": "item",
-									"name": "Deflected Missile (1 Ki Point)",
+									"list name": "Deflected Missile (1 Ki Point)",
 									"entry": "{@atk rw} {@hit 6} to hit, range 20/60 ft., one target. {@h}6 ({@damage 1d6 + 3}) damage of ranged weapon's type."
 								}
 							]
