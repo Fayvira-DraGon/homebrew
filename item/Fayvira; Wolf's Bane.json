@@ -1,0 +1,79 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "FHR",
+				"abbreviation": "FHR",
+				"full": "Fayvira's Homebrews & Rules",
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"authors": [
+					"Fayvira"
+				],
+				"convertedBy": [
+					"Fayvira"
+				]
+			}
+		],
+		"dateAdded": 1724553692,
+		"dateLastModified": 1724553692
+	},
+	"item": [
+		{
+			"name": "Wolf's Bane",
+			"source": "FHR",
+			"type": "G",
+			"rarity": "none",
+			"poison": true,
+			"entries": [
+				"This poison is made from a special preparation of wolfsbane (also known as monk's hood). This poison has different effects based on the method of delivery:",
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ingested or Injury",
+							"entries": [
+								"A creature subjected to this poison must succeed on a {@dc 13} Constitution saving throw or become {@condition poisoned} for 24 hours. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+								"A werecreature subjected to this poison instead must succeed on a {@dc 13} Constitution saving throw or it becomes {@condition poisoned} for 1 minute, takes 10 ({@damage 3d6}) poison damage, and must repeat the saving throw at the start of each of its turns. On each successive failed save, the werecreature takes 7 ({@damage 2d6}) poison damage. After three successful saves, the effects of the poison end.",
+								"An afflicted werecreature that has never encountered the natural light of a full moon that is subjected to 3 doses of this poison within 3 rounds, and has failed all of the saving throws of each dose of poison is cured of their lycantropic curse. A cured lycanthrope is {@condition poisoned} for 24 hours. The cured lycanthrope can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Inhaled",
+							"entries": [
+								"This poison is made from a special preparation of wolfsbane (also known as monkshood). This poison only affects dire wolves, wolves, and werewolves that dont have total cover from and are within 30-ft of any open container with a full dose of this poison in it. This poison evaporates, neutralizing it, from an open container at a rate of 1 dose per 6 hours. A creature subjected to this poison must succeed on a {@dc 13} Constitution saving throw or become frightened while in the affected area. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful the creature is immune to this poison while in the affected area."
+							]
+						}
+					]
+				}
+			],
+			"poisonTypes": [
+				"ingested",
+				"inhaled",
+				"injury"
+			],
+			"miscTags": [
+				"CNS"
+			]
+		},
+		{
+			"name": "Wolf's Bane, Lesser",
+			"source": "FHR",
+			"type": "G",
+			"rarity": "none",
+			"poison": true,
+			"entries": [
+				"This poison is made from a special preparation of wolfsbane (also known as monkshood). This poison only affects dire wolves, wolves, and werewolves that dont have total cover from and are within 30-ft of any open container with a full dose of this poison in it. This poison evaporates, neutralizing it, from an open container at a rate of 1 dose per 6 hours. A creature subjected to this poison must succeed on a {@dc 13} Constitution saving throw or become frightened while in the affected area. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful the creature is immune to this poison while in the affected area."
+			],
+			"poisonTypes": [
+				"inhaled"
+			],
+			"miscTags": [
+				"CNS"
+			]
+		}
+	]
+}
