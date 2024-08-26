@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724121600,
-		"dateLastModified": 1724642735
+		"dateLastModified": 1724660008
 	},
 	"monster": [
 		{
@@ -34,7 +34,7 @@
 				"tags": [
 					{
 						"tag": "lizardfolk",
-						"prefix": "Male"
+						"prefix": "male"
 					},
 					"shapechanger"
 				]
@@ -189,7 +189,7 @@
 					]
 				},
 				{
-					"name": "Steel (Humanoid Form Only)",
+					"name": "Steel (Humanoid and Hybrid Form Only)",
 					"entries": [
 						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) slashing damage, or 10 ({@damage 1d10 + 5}) slashing damage if used with both hands. This is a magic weapon attack."
 					]
