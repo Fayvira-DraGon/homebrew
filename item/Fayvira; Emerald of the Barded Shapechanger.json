@@ -16,13 +16,13 @@
 			}
 		],
 		"dateAdded": 1724096580,
-		"dateLastModified": 1724362871
+		"dateLastModified": 1724637881
 	},
 	"item": [
 		{
 			"name": "Emerald of the Barded Shapechanger",
 			"source": "FHR",
-			"rarity": "rare",
+			"rarity": "uncommon",
 			"reqAttune": true,
 			"wondrous": true,
 			"entries": [
