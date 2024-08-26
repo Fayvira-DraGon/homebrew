@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724040360,
-		"dateLastModified": 1724661534
+		"dateLastModified": 1724662030
 	},
 	"monster": [
 		{
@@ -182,7 +182,7 @@
 					]
 				},
 				{
-					"name": "large {@item +1 weapon|dmg|+1} {@item silvered greataxe|phb|silvered greatcleaver} (Humanoid or Hybrid Form Only)",
+					"name": "{@item +1 weapon|dmg|+1} large {@item silvered greataxe|phb|silvered greatcleaver} (Humanoid or Hybrid Form Only)",
 					"entries": [
 						"{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}17 ({@damage 2d12 + 5}) slashing damage."
 					]
