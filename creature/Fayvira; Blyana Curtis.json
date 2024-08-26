@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724022360,
-		"dateLastModified": 1724651639
+		"dateLastModified": 1724656782
 	},
 	"monster": [
 		{
@@ -147,7 +147,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Blyana wields a {@item +1 weapon|dmg|+1} {@item silvered weapon|phb|silvered} {@item brass knuckles|fhr|brass knuckles}."
+						"Blyana wields a {@item +1 weapon|dmg|+1} {@item silvered brass knuckles|fhr}."
 					]
 				}
 			],
