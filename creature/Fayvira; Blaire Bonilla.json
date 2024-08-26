@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724048340,
-		"dateLastModified": 1724307181
+		"dateLastModified": 1724634491
 	},
 	"monster": [
 		{
@@ -105,7 +105,7 @@
 				{
 					"name": "Shapechanger",
 					"entries": [
-						"Blaire can use her action to polymorph into a large dire wolf-humanoid hybrid or into a dire wolf, or back into her true form, which is humanoid. Her statistics, other than her AC, are the same in each form. Any equipment she is wearing or carrying isn't transformed. She reverts to her true form if she dies."
+						"Blaire can use her action to polymorph into a large dire wolf-humanoid hybrid or into a large dire wolf, or back into her true form, which is humanoid. Her statistics, other than her AC, are the same in each form. Any equipment she is wearing or carrying isn't transformed. She reverts to her true form if she dies."
 					]
 				},
 				{
@@ -127,9 +127,9 @@
 					]
 				},
 				{
-					"name": "Speak with Wolves",
+					"name": "Lycanthropic Empathy",
 					"entries": [
-						"Blaire can communicate with wolves as if they shared a language."
+						"Blaire can communicate with wolves and dire wolves as if they shared a language."
 					]
 				},
 				{
@@ -214,7 +214,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Blaire wields a {@item silvered warhammer|phb} with an attuned {@item Amethyst of Many Sizes|FHR} attached to it."
+						"Blaire wields a {@item silvered warhammer|phb} with an attuned {@item amethyst of the sizeshifter's weapon|FHR} attached to it."
 					]
 				}
 			],
@@ -234,7 +234,7 @@
 				{
 					"name": "Claws (Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 10} to hit, reach 10 ft. on her turn (or 5 ft.), one target. {@h}15 ({@damage 4d4 + 5}) slashing damage. This is a magic weapon attack."
+						"{@atk mw} {@hit 10} to hit, reach 10 ft. on her turn (or 5 ft.), one target. {@h}15 ({@damage 4d4 + 5}) slashing damage."
 					]
 				},
 				{
@@ -273,6 +273,8 @@
 			"hasFluff": true,
 			"hasFluffImages": true,
 			"fluff": {
+				"name": "Werewolf",
+				"source": "MM",
 				"entries": [
 					{
 						"type": "entries",
@@ -314,6 +316,62 @@
 											"A humanoid creature can be afflicted with the curse of lycanthropy after being wounded by a lycanthrope, or if one or both of its parents are lycanthropes. A {@spell remove curse} spell can rid an afflicted lycanthrope of the curse, but a natural born lycanthrope can be freed of the curse only with a wish.",
 											"A lycanthrope can either resist its curse or embrace it. By resisting the curse, a lycanthrope retains its normal alignment and personality while in humanoid form. It lives its life as it always has, burying deep the bestial urges raging inside it. However, when the full moon rises, the curse becomes too strong to resist, transforming the individual into its beast form-or into a horrible hybrid form that combines animal and humanoid traits. When the moon wanes, the beast within can be controlled once again. Especially if the cursed creature is unaware of its condition, it might not remember the events of its transformation, though those memories often haunt a lycanthrope as bloody dreams.",
 											"Some individuals see little point in fighting the curse and accept what they are. With time and experience, they learn to master their shapechanging ability and can assume beast form or hybrid form at will. Most lycanthropes that embrace their bestial natures succumb to bloodlust, becoming evil, opportunistic creatures that prey on the weak."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Dire Lycanthropes",
+										"entries": [
+											"A natural variant of the lycanthrope, a dire lycanthrope's animal form is the ancient dire version of the normal lycanthrope's animal form, and the hybrid form is always the same size as the animal form. A dire lycanthrope can manifest as the offspring of a powerful lycanthrope or from those bitten by a dire lycanthrope. Dire lycanthrope are more resistant to magic and silver than their normal counter-parts, their hides are thicker, their bodies tougher, and their cursed attacks are naturally considered magic and silvered attacks. They maintain their ability to speak in their animal form, as well as gain the ability to speak with members of their animal form's species."
+										]
+									}
+								]
+							},
+							{
+								"type": "inset",
+								"name": "Player Characters as Dire Lycanthropes",
+								"entries": [
+									"A character who becomes a dire lycanthrope retains their statistics except as specified by dire lycanthrope type. The character gains the dire lycanthrope's speeds in non-humanoid form, damage immunities, damage resistances, traits, and actions that don't involve equipment. The character is proficient with the lycanthrope's natural attacks, such as its bite or claws, which deal damage as shown in the lycanthrope's statistics, and their curse carrying attacks count as both magical and silvered for the purpose of overcoming resistance and immunity to nonmagical or silvered attacks and damage. The character can speak while in animal form.",
+									"A non-lycanthrope humanoid hit by an attack that carries the curse of lycanthropy must succeed on a Constitution saving throw (DC 8 + the lycanthrope's proficiency bonus + the lycanthrope's Constitution modifier) or be cursed. If the character embraces the curse, his or her alignment becomes the one defined for the lycanthrope. The DM is free to decide that a change in alignment places the character under DM control until the curse of lycanthropy is removed.",
+									"The following information applies to specific dire lycanthropes.",
+									{
+										"type": "entries",
+										"entries": [
+											{
+												"type": "entries",
+												"name": "{@creature Dire Werebear}",
+												"entries": [
+													"The character gains a Strength of 19 if his or her score isn't already higher, and a +2 bonus to AC while in dire bear or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "{@creature Dire Wereboar}",
+												"entries": [
+													"The character gains a Strength of 17 if his or her score isn't already higher, and a +2 bonus to AC while in dire boar or hybrid form (from natural armor). Attack and damage rolls for the tusks are based on Strength. For the Charge trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "{@creature Dire Wererat}",
+												"entries": [
+													"The character gains a Dexterity of 15 if his or her score isn't already higher. Attack and damage rolls for the bite are based on whichever is higher of the character's Strength and Dexterity."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "{@creature Dire Weretiger}",
+												"entries": [
+													"The character gains a Strength of 17 if his or her score isn't already higher. Attack and damage rolls for the natural weapons are based on Strength. For the Pounce trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
+												]
+											},
+											{
+												"type": "entries",
+												"name": "{@creature Dire Werewolf}",
+												"entries": [
+													"The character gains a Strength of 15 if his or her score isn't already higher, and a +2 bonus to AC while in dire wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
+												]
+											}
 										]
 									}
 								]
@@ -373,9 +431,24 @@
 					"name": "Rage (4/Short or Long Rest)",
 					"entries": [
 						"As a bonus action, Blaire can enter a rage that lasts for 1 minute. The rage ends early if she is knocked {@condition unconscious} or if her turn ends and she hasn't attacked a hostile creature or taken damage since her last turn. While raging, Blaire gains the following benefits:",
-						"She has advantage on Strength checks and Strength saving throws.",
-						"She deals an extra 3 damage when she hits a target with a melee weapon attack.",
-						"She has resistance to bludgeoning, piercing, and slashing damage."
+						{
+							"type": "list",
+							"style": "bullet",
+							"items": [
+								{
+									"type": "item",
+									"entry": "She has advantage on Strength checks and Strength saving throws."
+								},
+								{
+									"type": "item",
+									"entry": "She deals an extra 3 damage when she hits a target with a melee weapon attack."
+								},
+								{
+									"type": "item",
+									"entry": "She has resistance to bludgeoning, piercing, and slashing damage."
+								}
+							]
+						}
 					]
 				}
 			],
