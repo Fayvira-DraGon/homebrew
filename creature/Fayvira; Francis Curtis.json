@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724040360,
-		"dateLastModified": 1724660511
+		"dateLastModified": 1724661534
 	},
 	"monster": [
 		{
@@ -309,9 +309,24 @@
 					"name": "Rage (4/Short or Long Rest)",
 					"entries": [
 						"As a bonus action, Francis can enter a rage that lasts for 1 minute. The rage ends early if Francis is knocked {@condition unconscious} or if his turn ends and he hasn't attacked a hostile creature or taken damage since his last turn. While raging, Francis gains the following benefits:",
-						"He has advantage on Strength checks and Strength saving throws.",
-						"He deals an extra 2 damage when he hits a target with a melee weapon attack.",
-						"He has resistance to acid, bludgeoning, cold, fire, force, lightning, necrotic, piercing, poison, radiant, slashing, and thunder damage."
+						{
+							"type": "list",
+							"style": "bullet",
+							"items": [
+								{
+									"type": "item",
+									"entry": "He has advantage on Strength checks and Strength saving throws."
+								},
+								{
+									"type": "item",
+									"entry": "He deals an extra 2 damage when he hits a target with a melee weapon attack."
+								},
+								{
+									"type": "item",
+									"entry": "He has resistance to acid, bludgeoning, cold, fire, force, lightning, necrotic, piercing, poison, radiant, slashing, and thunder damage."
+								}
+							]
+						}
 					]
 				}
 			],
