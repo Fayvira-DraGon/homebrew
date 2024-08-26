@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724032620,
-		"dateLastModified": 1724625143
+		"dateLastModified": 1724634310
 	},
 	"monster": [
 		{
@@ -247,7 +247,7 @@
 											},
 											{
 												"type": "entries",
-												"name": "{@creature Weretiger}",
+												"name": "{@creature Dire Weretiger}",
 												"entries": [
 													"The character gains a Strength of 17 if his or her score isn't already higher. Attack and damage rolls for the natural weapons are based on Strength. For the Pounce trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
 												]
