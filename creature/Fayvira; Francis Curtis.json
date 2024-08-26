@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724040360,
-		"dateLastModified": 1724660209
+		"dateLastModified": 1724660511
 	},
 	"monster": [
 		{
@@ -135,6 +135,12 @@
 					"name": "Natural Armor",
 					"entries": [
 						"Francis has a +1 bonus to AC while in wolf or hybrid form."
+					]
+				},
+				{
+					"name": "Powerful Build",
+					"entries": [
+						"Francis counts as one size larger when determining his carrying capacity and the weight he can push, drag, or lift."
 					]
 				},
 				{
