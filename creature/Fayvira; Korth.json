@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724121600,
-		"dateLastModified": 1724390162
+		"dateLastModified": 1724642735
 	},
 	"monster": [
 		{
@@ -105,7 +105,7 @@
 				{
 					"name": "Shapechanger",
 					"entries": [
-						"Korth can use his action to polymorph into a wolf-humanoid hybrid or into a wolf, or back into his true form, which is humanoid. His statistics, other than his AC, are the same in each form. Any equipment it he wearing or carrying isn't transformed. He reverts to his true form if he dies."
+						"Korth can use his action to polymorph into a wolf-humanoid hybrid or into a wolf, or back into his true form, which is humanoid. His statistics, other than his AC, are the same in each form. Any equipment he is wearing or carrying isn't transformed. He reverts to his true form if he dies."
 					]
 				},
 				{
@@ -153,7 +153,13 @@
 				{
 					"name": "Natural Armor",
 					"entries": [
-						"Blyana has a +1 bonus to AC while in wolf or hybrid form."
+						"Korth has a +1 bonus to AC while in wolf or hybrid form."
+					]
+				},
+				{
+					"name": "Hold Breath",
+					"entries": [
+						"Korth can hold his breath for up to 15 minutes at a time."
 					]
 				},
 				{
@@ -171,7 +177,7 @@
 					]
 				},
 				{
-					"name": "Bite (Wolf or Hybrid Form Only)",
+					"name": "Bite",
 					"entries": [
 						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage. If the target is a humanoid, it must succeed on a {@dc 14} Constitution saving throw or be cursed with werewolf lycanthropy."
 					]
@@ -378,6 +384,12 @@
 					"entries": [
 						"Each undead that can see or hear Korth within 30 feet of him must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage. If the creature that fails its saving throw is CR 1 or lower, it is instead instantly destroyed.",
 						"A turned creature must spend its turns trying to move as far away from Korth as it can, and it can't willingly move to a space within 30 feet of him. It also can't take reactions. For its action, it can use only the {@action Dash} action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the {@action Dodge} action."
+					]
+				},
+				{
+					"name": "Hungry Jaws (4/Long Rest)",
+					"entries": [
+						"Korth can make a special attack with his Bite. If the attack hits, it deals its normal damage, and he gains 4 temporary hit points."
 					]
 				},
 				{
