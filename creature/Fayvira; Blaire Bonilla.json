@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724048340,
-		"dateLastModified": 1724640306
+		"dateLastModified": 1724656770
 	},
 	"monster": [
 		{
@@ -124,6 +124,12 @@
 					"name": "Fast Movement",
 					"entries": [
 						"While Blaire isn't wearing heavy armor, her speed increases by 10 feet (included in her speed)."
+					]
+				},
+				{
+					"name": "Natural Armor",
+					"entries": [
+						"Blaire has a +2 bonus to AC while in wolf or hybrid form."
 					]
 				},
 				{
