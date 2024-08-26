@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724048340,
-		"dateLastModified": 1724656770
+		"dateLastModified": 1724661950
 	},
 	"monster": [
 		{
@@ -244,13 +244,13 @@
 					]
 				},
 				{
-					"name": "+1 Large Silvered Warhammer (Human Form Only)",
+					"name": "{@item +1 weapon|dmg|+1} large {@item silvered warhammer|phb|silvered warhammer} (Humanoid or Hybrid Form Only)",
 					"entries": [
 						"{@atk mw} {@hit +11} to hit, reach 10 ft. on her turn (or 5 ft.), one target. {@h}15 ({@damage 2d8 + 6}) bludgeoning damage."
 					]
 				},
 				{
-					"name": "+1 Huge Silvered Warhammer (Hybrid Form Only)",
+					"name": "{@item +1 weapon|dmg|+1} huge {@item silvered warhammer|phb|silvered warhammer} (Hybrid Form Only)",
 					"entries": [
 						"{@atk mw} {@hit +11} to hit, reach 10 ft. on her turn (or 5 ft.), one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage."
 					]
