@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724022360,
-		"dateLastModified": 1724556770
+		"dateLastModified": 1724651639
 	},
 	"monster": [
 		{
@@ -127,9 +127,9 @@
 					]
 				},
 				{
-					"name": "Wolf Empathy",
+					"name": "Lycanthropic Empathy",
 					"entries": [
-						"Blyana can communicate with wolves as if they shared a language."
+						"Blaire can communicate with wolves and dire wolves as if they shared a language."
 					]
 				},
 				{
@@ -311,7 +311,7 @@
 				{
 					"name": "Flurry of Blows (1 Ki Point)",
 					"entries": [
-						"Immediately after taking the Attack action on her turn, Blyana makes two Unarmed Strikes."
+						"Immediately after taking the Attack action on her turn, Blyana makes two unarmed strikes."
 					]
 				},
 				{
