@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724962575,
-		"dateLastModified": 1724962575
+		"dateLastModified": 1724962735
 	},
 	"baseitem": [
 		{
@@ -69,7 +69,7 @@
 							"2 gallons"
 						],
 						[
-							"{@filter |items|rarity=none|search=wine|Wine (Fine or Common)}",
+							"{@item |rarity=none|search=wine|Wine (Fine or Common)}",
 							"2 gallon"
 						]
 					]
