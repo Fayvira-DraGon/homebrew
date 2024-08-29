@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724553692,
-		"dateLastModified": 1724553692
+		"dateLastModified": 1724960271
 	},
 	"item": [
 		{
@@ -26,7 +26,7 @@
 			"rarity": "none",
 			"poison": true,
 			"entries": [
-				"This poison is made from a special preparation of wolfsbane (also known as monk's hood). This poison has different effects based on the method of delivery:",
+				"This poison is made from a special preparation of wolfsbane (also known as monkshood), lupines (also known as bluebonnet), foxglove, and hemlock. This poison has different effects based on the method of delivery:",
 				{
 					"type": "list",
 					"style": "list-hang-notitle",
