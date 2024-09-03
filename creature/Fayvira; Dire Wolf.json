@@ -16,14 +16,12 @@
 			}
 		],
 		"dateAdded": 1725382012,
-		"dateLastModified": 1725382012
+		"dateLastModified": 1725383731
 	},
 	"monster": [
 		{
 			"name": "Dire Wolf",
 			"source": "FHR",
-			"page": 321,
-			"basicRules": true,
 			"size": [
 				"L"
 			],
