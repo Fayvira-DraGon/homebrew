@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724032620,
-		"dateLastModified": 1725379178
+		"dateLastModified": 1725383057
 	},
 	"monster": [
 		{
@@ -102,7 +102,7 @@
 				{
 					"name": "Speak with Wolves",
 					"entries": [
-						"The dire werewolf can communicate with wolves as if they shared a language."
+						"The dire werewolf can communicate with all creatures that possess a wolf-like form as if they shared a language."
 					]
 				}
 			],
