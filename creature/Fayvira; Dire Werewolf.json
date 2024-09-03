@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724032620,
-		"dateLastModified": 1725378291
+		"dateLastModified": 1725379178
 	},
 	"monster": [
 		{
@@ -228,7 +228,7 @@
 												"type": "entries",
 												"name": "{@creature Dire Werebear}",
 												"entries": [
-													"The character gains a Strength of 19 if his or her score isn't already higher, and a +2 bonus to AC while in dire bear or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
+													"The character gains a Strength of 19 if his or her score isn't already higher, darkvision 60 ft, and a +2 bonus to AC while in dire bear or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
 												]
 											},
 											{
@@ -249,14 +249,14 @@
 												"type": "entries",
 												"name": "{@creature Dire Weretiger}",
 												"entries": [
-													"The character gains a Strength of 17 if his or her score isn't already higher. Attack and damage rolls for the natural weapons are based on Strength. For the Pounce trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
+													"The character gains a Strength of 17 if his or her score isn't already higher, and darkvision 60 ft. Attack and damage rolls for the natural weapons are based on Strength. For the Pounce trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
 												]
 											},
 											{
 												"type": "entries",
 												"name": "{@creature Dire Werewolf}",
 												"entries": [
-													"The character gains a Strength of 15 if his or her score isn't already higher, and a +2 bonus to AC while in dire wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
+													"The character gains a Strength of 15 if his or her score isn't already higher, darkvision 60 ft, and a +2 bonus to AC while in dire wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
 												]
 											}
 										]
