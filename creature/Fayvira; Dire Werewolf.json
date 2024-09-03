@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724032620,
-		"dateLastModified": 1725383057
+		"dateLastModified": 1725383165
 	},
 	"monster": [
 		{
@@ -100,7 +100,7 @@
 					]
 				},
 				{
-					"name": "Speak with Wolves",
+					"name": "Lycanthropic Empathy",
 					"entries": [
 						"The dire werewolf can communicate with all creatures that possess a wolf-like form as if they shared a language."
 					]
