@@ -1,0 +1,133 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "FHR",
+				"abbreviation": "FHR",
+				"full": "Fayvira's Homebrews & Rules",
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"authors": [
+					"Fayvira"
+				],
+				"convertedBy": [
+					"Fayvira"
+				]
+			}
+		],
+		"dateAdded": ,
+		"dateLastModified": 
+	},
+	"monster": [
+		{
+			"name": "Dire Wolf",
+			"source": "FHR",
+			"page": 321,
+			"basicRules": true,
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 37,
+				"formula": "5d10 + 10"
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 17,
+			"dex": 15,
+			"con": 15,
+			"int": 3,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4"
+			},
+			"passive": 13,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"The wolf has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"hill"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/dire-wolf.mp3"
+			},
+			"traitTags": [
+				"Keen Senses",
+				"Pack Tactics"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrowForced": [
+				"strength"
+			],
+			"hasFluffImages": true,
+			"token": {
+				"name": "Dire Wolf",
+				"source": "MM"
+			},
+			"fluff": {
+				"name": "Dire Wolf",
+				"source": "MM",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Dire Wolf.webp"
+						}
+					}
+				]
+			}
+		}
+	]
+}
