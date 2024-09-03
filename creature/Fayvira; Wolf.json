@@ -16,14 +16,12 @@
 			}
 		],
 		"dateAdded": 1725381960,
-		"dateLastModified": 1725381960
+		"dateLastModified": 1725383754
 	},
 	"monster": [
 		{
 			"name": "Wolf",
 			"source": "FHR",
-			"page": 341,
-			"basicRules": true,
 			"size": [
 				"M"
 			],
