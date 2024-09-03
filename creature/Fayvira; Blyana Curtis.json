@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724022360,
-		"dateLastModified": 1724656782
+		"dateLastModified": 1725383236
 	},
 	"monster": [
 		{
@@ -129,9 +129,9 @@
 				{
 					"name": "Lycanthropic Empathy",
 					"entries": [
-						"Blaire can communicate with wolves and dire wolves as if they shared a language."
+						"Blyana can communicate with all creatures that possess a wolf-like form as if they shared a language."
 					]
-				},
+				}
 				{
 					"name": "Ki",
 					"entries": [
