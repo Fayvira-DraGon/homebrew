@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724032620,
-		"dateLastModified": 1724634310
+		"dateLastModified": 1725378291
 	},
 	"monster": [
 		{
@@ -293,6 +293,12 @@
 					"note": "from attacks that aren't magical and silvered",
 					"cond": true
 				}
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
 			],
 			"tokenHref": {
 				"type": "external",
