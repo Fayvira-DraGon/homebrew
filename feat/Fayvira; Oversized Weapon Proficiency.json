@@ -1,0 +1,51 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "FHR",
+				"abbreviation": "FHR",
+				"full": "Fayvira's Homebrews & Rules",
+				"version": "1.0.0",
+				"url": "https://github.com/TheGiddyLimit/homebrew",
+				"authors": [
+					"Fayvira"
+				],
+				"convertedBy": [
+					"Fayvira"
+				]
+			}
+		],
+		"dateAdded": 1725386102,
+		"dateLastModified": 1725386102
+	},
+	"feat": [
+		{
+			"name": "Oversized Weapon Proficiency",
+			"source": "FHR",
+			"prerequisite": [
+				{
+					"other": "Powerful Build Trait",
+					"ability": [
+						{
+							"str": 13
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"entries": [
+				"You can wield oversized weapons more easily. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You count as one size larger when determining which weapons are oversized for you."
+					]
+				}
+			]
+		}
+	]
+}
