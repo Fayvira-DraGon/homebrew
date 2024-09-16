@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 1724529310,
-		"dateLastModified": 1726518126
+		"dateLastModified": 1726518394
 	},
 	"itemProperty": [
 		{
@@ -32,9 +32,7 @@
 					]
 				}
 			]
-		}
-	],
-	"itemProperty": [
+		},
 		{
 			"abbreviation": "UnarmedFHR",
 			"source": "FHR",
@@ -47,9 +45,7 @@
 					]
 				}
 			]
-		}
-	],
-	"itemProperty": [
+		},
 		{
 			"abbreviation": "FierceFHR",
 			"source": "FHR",
