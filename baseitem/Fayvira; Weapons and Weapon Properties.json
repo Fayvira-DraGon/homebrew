@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 1724529310,
-		"dateLastModified": 1726520589
+		"dateLastModified": 1726520842
 	},
 	"itemProperty": [
 		{
@@ -83,7 +83,8 @@
 			"value": 200,
 			"weaponCategory": "simple",
 			"property": [
-				"UnarmedFHR"
+				"UnarmedFHR",
+				"V"
 			],
 			"dmg1": "1d4",
 			"dmgType": "B",
