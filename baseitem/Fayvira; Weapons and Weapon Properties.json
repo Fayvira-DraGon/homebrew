@@ -17,9 +17,22 @@
 			}
 		],
 		"dateAdded": 1724529310,
-		"dateLastModified": 1726519159
+		"dateLastModified": 1726520244
 	},
 	"itemProperty": [
+		{
+			"abbreviation": "FierceFHR",
+			"source": "FHR",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Fierce",
+					"entries": [
+						"A fierce weapon deals an extra {@dice 1d4} damage of the weapon's type to any target it hits."
+					]
+				}
+			]
+		},
 		{
 			"abbreviation": "GloveFHR",
 			"source": "FHR",
@@ -47,14 +60,14 @@
 			]
 		},
 		{
-			"abbreviation": "FierceFHR",
+			"abbreviation": "WrapFHR",
 			"source": "FHR",
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Fierce",
+					"name": "Wrap",
 					"entries": [
-						"A fierce weapon deals an extra {@dice 1d4} damage of the weapon's type to any target it hits."
+						"A wrap weapon is a type glove weapon that can be either worn on your foot or hand, because it is comprised of strips that are wrapped around the appendage. You can only hold objects, wield weapons, and cast spells with a foot fitted with a wrap weapon, if you could already do those things with your foot, and you can also only attack with the wrap weapon if that foot is unoccupied. It takes a minute to don or doff a wrap weapon."
 					]
 				}
 			]
@@ -90,13 +103,14 @@
 			"property": [
 				"FierceFHR",
 				"GloveFHR",
-				"UnarmedFHR"
+				"UnarmedFHR",
+				"WrapFHR"
 			],
 			"dmg1": "1d4",
 			"dmgType": "B",
 			"weapon": true,
 			"entries": [
-				"A reinforced gauntlet made of tightly bound leather strips, which protects the knuckles and transforms mere punches into lethal blows."
+				"A set of reinforced leather strips to be tightly bound around foot or hand, which protect the knuckles or foot and transforms mere punches or kicks into lethal blows."
 			]
 		},
 		{
@@ -110,13 +124,14 @@
 			"property": [
 				"FierceFHR",
 				"GloveFHR",
-				"UnarmedFHR"
+				"UnarmedFHR",
+				"WrapFHR"
 			],
 			"dmg1": "1d4",
 			"dmgType": "P",
 			"weapon": true,
 			"entries": [
-				"A reinforced gauntlet made of tightly bound leather strips, which protects the knuckles and transforms mere punches into lethal blows. Sharp spikes are embeded into the leather strips, which allow for piercing strikes."
+				"A set of reinforced leather strips, with embedded sharp spikes, to be tightly bound around foot or hand, which protect the knuckles or foot and transforms mere punches or kicks into lethal stabs."
 			]
 		},
 		{
@@ -130,13 +145,14 @@
 			"property": [
 				"FierceFHR",
 				"GloveFHR",
-				"UnarmedFHR"
+				"UnarmedFHR",
+				"WrapFHR"
 			],
 			"dmg1": "1d4",
 			"dmgType": "S",
 			"weapon": true,
 			"entries": [
-				"A reinforced gauntlet made of tightly bound leather strips, which protects the knuckles and transforms mere punches into lethal blows. A sharp blade is embeded into the leather strips, which allows for slashing strikes."
+				"A set of reinforced leather strips, with an embedded sharp blade, to be tightly bound around foot or hand, which protect the knuckles or foot and transforms mere punches or kicks into lethal slashes."
 			]
 		}
 	]
