@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 1724529310,
-		"dateLastModified": 1726518394
+		"dateLastModified": 1726519159
 	},
 	"itemProperty": [
 		{
@@ -54,7 +54,7 @@
 					"type": "entries",
 					"name": "Fierce",
 					"entries": [
-						"A fierce weapon deals an extra 1d4 damage of the weapon's type to any target it hits."
+						"A fierce weapon deals an extra {@dice 1d4} damage of the weapon's type to any target it hits."
 					]
 				}
 			]
@@ -73,7 +73,7 @@
 				"UnarmedFHR"
 			],
 			"dmg1": "1d4",
-			"dmgType": "B"
+			"dmgType": "B",
 			"weapon": true,
 			"entries": [
 				"This held weapon is a single piece of metal or stone designed to be worn around the knuckles of a humanoid hand. In order to use the versatile property of this weapon, then you must use a pair of them, one in each hand."
@@ -136,7 +136,7 @@
 			"dmgType": "S",
 			"weapon": true,
 			"entries": [
-				"A reinforced gauntlet made of tightly bound leather strips, which protects the knuckles and transforms mere punches into lethal blows. A sharp blade is embeded into the leather strips, which allow for slashing strikes."
+				"A reinforced gauntlet made of tightly bound leather strips, which protects the knuckles and transforms mere punches into lethal blows. A sharp blade is embeded into the leather strips, which allows for slashing strikes."
 			]
 		}
 	]
