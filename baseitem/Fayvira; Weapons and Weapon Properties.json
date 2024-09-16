@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 1724529310,
-		"dateLastModified": 1726520244
+		"dateLastModified": 1726520589
 	},
 	"itemProperty": [
 		{
@@ -87,9 +87,10 @@
 			],
 			"dmg1": "1d4",
 			"dmgType": "B",
+			"dmg2": "1d6",
 			"weapon": true,
 			"entries": [
-				"This held weapon is a single piece of metal or stone designed to be worn around the knuckles of a humanoid hand. In order to use the versatile property of this weapon, then you must use a pair of them, one in each hand."
+				"This held weapon is a single piece of metal or stone with holes or a grip designed to be worn around the knuckles of a humanoid hand. In order to use the versatile property of this weapon, then you must use a pair of them, one in each hand."
 			]
 		},
 		{
