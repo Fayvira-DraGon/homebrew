@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1725379302,
-		"dateLastModified": 1725383778
+		"dateLastModified": 1727729681
 	},
 	"monster": [
 		{
@@ -74,7 +74,7 @@
 			},
 			"passive": 14,
 			"senses": [
-				"darkvision 60 ft."
+				"darkvision 30 ft."
 			],
 			"senseTags": [
 				"D"
@@ -247,7 +247,7 @@
 												"type": "entries",
 												"name": "{@creature Werebear}",
 												"entries": [
-													"The character gains a Strength of 19 if his or her score isn't already higher, and a +1 bonus to AC while in bear or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
+													"The character gains a Strength of 19 if his or her score isn't already higher, darkvision out to 60 feet, and a +1 bonus to AC while in bear or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
 												]
 											},
 											{
@@ -268,14 +268,14 @@
 												"type": "entries",
 												"name": "{@creature Weretiger}",
 												"entries": [
-													"The character gains a Strength of 17 if his or her score isn't already higher. Attack and damage rolls for the natural weapons are based on Strength. For the Pounce trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
+													"The character gains a Strength of 17 if his or her score isn't already higher, and darkvision out to 60 feet. Attack and damage rolls for the natural weapons are based on Strength. For the Pounce trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
 												]
 											},
 											{
 												"type": "entries",
 												"name": "{@creature Werewolf}",
 												"entries": [
-													"The character gains a Strength of 15 if his or her score isn't already higher, and a +1 bonus to AC while in wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
+													"The character gains a Strength of 15 if his or her score isn't already higher, darkvision out to 30 feet, and a +1 bonus to AC while in wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
 												]
 											}
 										]
