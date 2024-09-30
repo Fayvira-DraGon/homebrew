@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1725382012,
-		"dateLastModified": 1725383731
+		"dateLastModified": 1727730423
 	},
 	"monster": [
 		{
@@ -56,7 +56,7 @@
 			},
 			"passive": 13,
 			"senses": [
-				"darkvision 60 ft."
+				"darkvision 30 ft."
 			],
 			"senseTags": [
 				"D"
