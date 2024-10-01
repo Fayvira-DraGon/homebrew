@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724032620,
-		"dateLastModified": 1727750598
+		"dateLastModified": 1727751221
 	},
 	"monster": [
 		{
@@ -340,7 +340,7 @@
 					"condition": "(50 ft. in wolf form)"
 				}
 			},
-			"str": 15,
+			"str": 17,
 			"dex": 13,
 			"con": 14,
 			"int": 10,
@@ -393,19 +393,19 @@
 				{
 					"name": "Bite (Dire Wolf or Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d8 + 2}) piercing damage. If the target is a humanoid, it must succeed on a {@dc 12} Constitution saving throw or be cursed with werewolf lycanthropy. This is a magic and silvered weapon attack."
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d8 + 2}) piercing damage. If the target is a humanoid, it must succeed on a {@dc 12} Constitution saving throw or be cursed with werewolf lycanthropy. This is a magic and silvered weapon attack."
 					]
 				},
 				{
 					"name": "Claws (Hybrid Form Only)",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}12 ({@damage 4d4 + 2}) slashing damage. This is a magic weapon attack."
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}12 ({@damage 4d4 + 2}) slashing damage. This is a magic weapon attack."
 					]
 				},
 				{
 					"name": "Spear (Humanoid Form Only)",
 					"entries": [
-						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one creature. {@h}5 ({@damage 1d6 + 2}) piercing damage, or 6 ({@damage 1d8 + 2}) piercing damage if used with two hands to make a melee attack."
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one creature. {@h}5 ({@damage 1d6 + 2}) piercing damage, or 6 ({@damage 1d8 + 2}) piercing damage if used with two hands to make a melee attack."
 					]
 				}
 			],
@@ -505,35 +505,35 @@
 												"type": "entries",
 												"name": "{@creature Dire Werebear}",
 												"entries": [
-													"The character gains a Strength of 19 if his or her score isn't already higher, darkvision out to 60 ft, and a +2 bonus to AC while in dire bear or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
+													"The character gains a Strength of 21 if his or her score isn't already higher, darkvision out to 60 ft, and a +2 bonus to AC while in dire bear or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
 												]
 											},
 											{
 												"type": "entries",
 												"name": "{@creature Dire Wereboar}",
 												"entries": [
-													"The character gains a Strength of 17 if his or her score isn't already higher, and a +2 bonus to AC while in dire boar or hybrid form (from natural armor). Attack and damage rolls for the tusks are based on Strength. For the Charge trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
+													"The character gains a Strength of 19 if his or her score isn't already higher, and a +2 bonus to AC while in dire boar or hybrid form (from natural armor). Attack and damage rolls for the tusks are based on Strength. For the Charge trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
 												]
 											},
 											{
 												"type": "entries",
 												"name": "{@creature Dire Wererat}",
 												"entries": [
-													"The character gains a Dexterity of 15 if his or her score isn't already higher, and darkvision out to 60 ft while in rat form. Attack and damage rolls for the bite are based on whichever is higher of the character's Strength and Dexterity."
+													"The character gains a Dexterity of 17 if his or her score isn't already higher, and darkvision out to 60 ft while in rat form. Attack and damage rolls for the bite are based on whichever is higher of the character's Strength and Dexterity."
 												]
 											},
 											{
 												"type": "entries",
 												"name": "{@creature Dire Weretiger}",
 												"entries": [
-													"The character gains a Strength of 17 if his or her score isn't already higher, and darkvision out to 60 ft. Attack and damage rolls for the natural weapons are based on Strength. For the Pounce trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
+													"The character gains a Strength of 19 if his or her score isn't already higher, and darkvision out to 60 ft. Attack and damage rolls for the natural weapons are based on Strength. For the Pounce trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
 												]
 											},
 											{
 												"type": "entries",
 												"name": "{@creature Dire Werewolf}",
 												"entries": [
-													"The character gains a Strength of 15 if his or her score isn't already higher, darkvision out to 60 ft, and a +2 bonus to AC while in dire wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
+													"The character gains a Strength of 17 if his or her score isn't already higher, darkvision out to 60 ft, and a +2 bonus to AC while in dire wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
 												]
 											}
 										]
