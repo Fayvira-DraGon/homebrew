@@ -16,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724032620,
-		"dateLastModified": 1727750325
+		"dateLastModified": 1727750598
 	},
 	"monster": [
 		{
@@ -24,8 +24,7 @@
 			"group": [
 				"Lycanthropes"
 			],
-			"source": "zz",
-			"page": 211,
+			"source": "FHR",
 			"size": [
 				"M"
 			],
