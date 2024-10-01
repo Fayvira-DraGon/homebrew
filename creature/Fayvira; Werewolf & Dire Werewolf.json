@@ -15,492 +15,146 @@
 				]
 			}
 		],
-		"dateAdded": 1724032620,
-		"dateLastModified": 1727731257
+		"dateAdded": 1724553692,
+		"dateLastModified": 1727747258
 	},
-	"monster": [
+	"item": [
 		{
-			"name": "Werewolf",
-			"group": [
-				"Lycanthropes"
-			],
+			"name": "Greater Wolf's Bane",
 			"source": "FHR",
-			"size": [
-				"M"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"human",
-					"shapechanger"
-				]
-			},
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": [
+			"type": "G",
+			"rarity": "none",
+			"poison": true,
+			"entries": [
+				"This poison is made from a special preparation of wolfsbane (also known as monkshood), lupines (also known as bluebonnet), foxglove, and hemlock. This poison has different effects based on the method of delivery:",
 				{
-					"ac": 11,
-					"condition": "in humanoid form"
-				},
-				{
-					"ac": 12,
-					"from": [
-						"natural armor"
-					],
-					"condition": "in wolf or hybrid form"
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Ingested or Injury",
+							"entries": [
+								"A creature subjected to this poison must succeed on a {@dc 11} Constitution saving throw or become {@condition poisoned} for 24 hours. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+								"A werecreature subjected to this poison instead must succeed on a {@dc 13} Constitution saving throw or it becomes {@condition poisoned} for 1 minute, takes 14 ({@damage 4d6}) poison damage, and must repeat the saving throw at the start of each of its turns. On each successive failed save, the werecreature takes 10 ({@damage 3d6}) poison damage. After three successful saves, all of the effects of the poison end.",
+								"If an afflicted werecreature subjected to a dose of this poison each round for 3 consecutive rounds fails the saving throw of each dose of poison, then they are cured of their lycantropic curse. If the werecreature regains hit points or the poison within them is neutralized between doses then the process for curing the lycanthropic curse is interrupted. A cured lycanthrope is {@condition poisoned} for 24 hours."
+							]
+						},
+						{
+							"type": "item",
+							"name": "Inhaled",
+							"entries": [
+								"This poison only affects dire wolves, wolves, werewolves, and dire werewolves that dont have total cover from and are within 60-ft of any open container with a full dose of this poison in it. This poison evaporates, neutralizing it, from an open container at a rate of 1 dose per 6 hours. A creature subjected to this poison must succeed on a {@dc 15} Constitution saving throw or become frightened while in the affected area. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful the creature is immune to this poison while in the affected area."
+							]
+						}
+					]
 				}
 			],
-			"hp": {
-				"average": 58,
-				"formula": "9d8 + 18"
-			},
-			"speed": {
-				"walk": {
-					"number": 30,
-					"condition": "(40 ft. in wolf form)"
-				}
-			},
-			"str": 15,
-			"dex": 13,
-			"con": 14,
-			"int": 10,
-			"wis": 11,
-			"cha": 10,
-			"skill": {
-				"perception": "+4",
-				"stealth": "+3"
-			},
-			"passive": 14,
-				"Multiattack"
-			],
-			"languageTags": [
-				"C",
-				"CS"
-			],
-			"damageTags": [
-				"P",
-				"S"
+			"poisonTypes": [
+				"ingested",
+				"inhaled",
+				"injury"
 			],
 			"miscTags": [
-				"CUR",
-				"MLW",
-				"MW",
-				"RW",
-				"THW"
-			],
-			"savingThrowForced": [
-				"constitution"
-			],
-			"hasFluff": true,
-			"hasFluffImages": true,
-			"token": {
-				"name": "Werewolf",
-				"source": "MM"
-			},
-			"fluff": {
-				"name": "Werewolf",
-				"source": "MM",
-				"entries": [
-					{
-						"type": "entries",
-						"entries": [
-							{
-								"type": "entries",
-								"entries": [
-									"A werewolf is a savage predator. In its humanoid form, a werewolf has heightened senses, a fiery temper, and a tendency to eat rare meat. Its wolf form is a fearsome predator, but its hybrid form is more terrifying by far-a furred and well-muscled humanoid body topped by a ravening wolf's head. A werewolf can wield weapons in hybrid form, though it prefers to tear foes apart with its powerful claws and bite.",
-									"Most werewolves flee civilized lands not long after becoming afflicted. Those that reject the curse fear what will happen if they remain among their friends and family. Those that embrace the curse fear discovery and the consequences of their murderous acts. In the wild, werewolves form packs that also include wolves and dire wolves."
-								]
-							},
-							{
-								"type": "insetReadaloud",
-								"entries": [
-									{
-										"type": "quote",
-										"entries": [
-											"The Company of the Black Moon—they used to be adventurers loyal to the realm. Now they roam the woods as a pack of werewolves. The king has promised estates, titles, and gold to anyone who can undo the curse afflicting them. I, for one, have no interest in such rewards."
-										],
-										"by": "Thornstaff, elf druid"
-									}
-								]
-							}
-						]
-					},
-					{
-						"type": "section",
-						"name": "Lycanthropes",
-						"entries": [
-							"One of the most ancient and feared of all curses, lycanthropy can transform the most civilized humanoid into a ravening beast. In its natural humanoid form, a creature cursed by lycanthropy appears as its normal self. Over time, however, many lycanthropes acquire features suggestive of their animal form. In that animal form, a lycanthrope resembles a powerful version of a normal animal. On close inspection, its eyes show a faint spark of unnatural intelligence and might glow red in the dark.",
-							"Evil lycanthropes hide among normal folk, emerging in animal form at night to spread terror and bloodshed, especially under a full moon. Good lycanthropes are reclusive and uncomfortable around other civilized creatures, often living alone in wilderness areas far from villages and towns.",
-							{
-								"type": "entries",
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Curse of Lycanthropy",
-										"entries": [
-											"A humanoid creature can be afflicted with the curse of lycanthropy after being wounded by a lycanthrope, or if one or both of its parents are lycanthropes. A {@spell remove curse} spell can rid an afflicted lycanthrope of the curse, but a natural born lycanthrope can be freed of the curse only with a wish.",
-											"A lycanthrope can either resist its curse or embrace it. By resisting the curse, a lycanthrope retains its normal alignment and personality while in humanoid form. It lives its life as it always has, burying deep the bestial urges raging inside it. However, when the full moon rises, the curse becomes too strong to resist, transforming the individual into its beast form-or into a horrible hybrid form that combines animal and humanoid traits. When the moon wanes, the beast within can be controlled once again. Especially if the cursed creature is unaware of its condition, it might not remember the events of its transformation, though those memories often haunt a lycanthrope as bloody dreams.",
-											"Some individuals see little point in fighting the curse and accept what they are. With time and experience, they learn to master their shapechanging ability and can assume beast form or hybrid form at will. Most lycanthropes that embrace their bestial natures succumb to bloodlust, becoming evil, opportunistic creatures that prey on the weak."
-										]
-									}
-								]
-							},
-							{
-								"type": "inset",
-								"name": "Player Characters as Lycanthropes",
-								"entries": [
-									"A character who becomes a lycanthrope retains his or her statistics except as specified by lycanthrope type. The character gains the lycanthrope's speeds in non-humanoid form, damage immunities, traits, and actions that don't involve equipment. The character is proficient with the lycanthrope's natural attacks, such as its bite or claws, which deal damage as shown in the lycanthrope's statistics. The character can't speak while in animal form.",
-									"A non-lycanthrope humanoid hit by an attack that carries the curse of lycanthropy must succeed on a Constitution saving throw (DC 8 + the lycanthrope's proficiency bonus + the lycanthrope's Constitution modifier) or be cursed. If the character embraces the curse, his or her alignment becomes the one defined for the lycanthrope. The DM is free to decide that a change in alignment places the character under DM control until the curse of lycanthropy is removed.",
-									"The following information applies to specific lycanthropes.",
-									{
-										"type": "entries",
-										"entries": [
-											{
-												"type": "entries",
-												"name": "{@creature Werebear}",
-												"entries": [
-													"The character gains a Strength of 19 if his or her score isn't already higher, darkvision out to 60 feet, and a +1 bonus to AC while in bear or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "{@creature Wereboar}",
-												"entries": [
-													"The character gains a Strength of 17 if his or her score isn't already higher, and a +1 bonus to AC while in boar or hybrid form (from natural armor). Attack and damage rolls for the tusks are based on Strength. For the Charge trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "{@creature Wererat}",
-												"entries": [
-													"The character gains a Dexterity of 15 if his or her score isn't already higher. Attack and damage rolls for the bite are based on whichever is higher of the character's Strength and Dexterity."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "{@creature Weretiger}",
-												"entries": [
-													"The character gains a Strength of 17 if his or her score isn't already higher, and darkvision out to 60 feet. Attack and damage rolls for the natural weapons are based on Strength. For the Pounce trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "{@creature Werewolf}",
-												"entries": [
-													"The character gains a Strength of 15 if his or her score isn't already higher, darkvision out to 30 feet, and a +1 bonus to AC while in wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
-												]
-											}
-										]
-									}
-								]
-							}
-						]
-					}
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "internal",
-							"path": "bestiary/MM/Werewolf.webp"
-						}
-					}
-				]
-			}
+				"CNS"
+			]
 		},
 		{
-			"name": "Dire Werewolf",
-			"group": [
-				"Dire Lycanthropes"
-			],
+			"name": "Wolf's Bane",
 			"source": "FHR",
-			"basicRules": true,
-			"size": [
-				"M"
+			"type": "G",
+			"rarity": "none",
+			"poison": true,
+			"entries": [
+				"This poison is made from a special preparation of wolfsbane (also known as monkshood) and only affects dire wolves, wolves, werewolves, and dire werewolves that dont have total cover from and are within 30-ft of any open container with a full dose of this poison in it. This poison evaporates, neutralizing it, from an open container at a rate of 1 dose per 6 hours. A creature subjected to this poison must succeed on a {@dc 13} Constitution saving throw or become frightened while in the affected area. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful the creature is immune to this poison while in the affected area."
 			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"human",
-					"shapechanger"
-				]
-			},
-			"alignment": [
-				"C",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 11,
-					"condition": "in humanoid form"
-				},
-				{
-					"ac": 13,
-					"from": [
-						"natural armor"
-					],
-					"condition": "in dire wolf or hybrid form"
-				}
-			],
-			"hp": {
-				"formula": "9d10 + 18",
-				"average": 67
-			},
-			"speed": {
-				"walk": {
-					"number": 30,
-					"condition": "(50 ft. in wolf form)"
-				}
-			},
-			"str": 15,
-			"dex": 13,
-			"con": 14,
-			"int": 10,
-			"wis": 11,
-			"cha": 10,
-			"skill": {
-				"perception": "+4",
-				"stealth": "+3"
-			},
-			"passive": 14,
-			"immune": [
-				{
-					"immune": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
-					],
-					"note": "from nonmagical attacks that aren't silvered",
-					"cond": true
-				}
-			],
-			"cr": "4",
-			"trait": [
-				{
-					"name": "Shapechanger",
-					"entries": [
-						"The dire werewolf can use its action to polymorph into a large dire wolf-humanoid hybrid or into a dire wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
-					]
-				},
-				{
-					"name": "Keen Hearing and Smell",
-					"entries": [
-						"The dire werewolf has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
-					]
-				},
-				{
-					"name": "Lycanthropic Empathy",
-					"entries": [
-						"The dire werewolf can communicate with all creatures that possess a wolf-like form as if they shared a language."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Multiattack (Humanoid or Hybrid Form Only)",
-					"entries": [
-						"The dire werewolf makes two attacks, only one of which can be a bite."
-					]
-				},
-				{
-					"name": "Bite (Dire Wolf or Hybrid Form Only)",
-					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d8 + 2}) piercing damage. If the target is a humanoid, it must succeed on a {@dc 12} Constitution saving throw or be cursed with werewolf lycanthropy. This is a magic and silvered weapon attack."
-					]
-				},
-				{
-					"name": "Claws (Hybrid Form Only)",
-					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}12 ({@damage 4d4 + 2}) slashing damage. This is a magic weapon attack."
-					]
-				},
-				{
-					"name": "Spear (Humanoid Form Only)",
-					"entries": [
-						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one creature. {@h}5 ({@damage 1d6 + 2}) piercing damage, or 6 ({@damage 1d8 + 2}) piercing damage if used with two hands to make a melee attack."
-					]
-				}
-			],
-			"environment": [
-				"forest",
-				"hill"
-			],
-			"soundClip": {
-				"type": "external",
-				"url": "https://5e.tools/audio/bestiary/werewolf.mp3"
-			},
-			"attachedItems": [
-				"spear|phb"
-			],
-			"traitTags": [
-				"Keen Senses",
-				"Shapechanger"
-			],
-			"actionTags": [
-				"Multiattack"
+			"poisonTypes": [
+				"inhaled"
 			],
 			"miscTags": [
-				"MW",
-				"CUR",
-				"RW",
-				"MLW",
-				"THW"
-			],
-			"hasFluff": true,
-			"hasFluffImages": true,
-			"fluff": {
-				"name": "Werewolf",
-				"source": "MM",
-				"entries": [
-					{
-						"type": "entries",
-						"entries": [
-							{
-								"type": "entries",
-								"entries": [
-									"A werewolf is a savage predator. In its humanoid form, a werewolf has heightened senses, a fiery temper, and a tendency to eat rare meat. Its wolf form is a fearsome predator, but its hybrid form is more terrifying by far-a furred and well-muscled humanoid body topped by a ravening wolf's head. A werewolf can wield weapons in hybrid form, though it prefers to tear foes apart with its powerful claws and bite.",
-									"Most werewolves flee civilized lands not long after becoming afflicted. Those that reject the curse fear what will happen if they remain among their friends and family. Those that embrace the curse fear discovery and the consequences of their murderous acts. In the wild, werewolves form packs that also include wolves and dire wolves."
-								]
-							},
-							{
-								"type": "insetReadaloud",
-								"entries": [
-									{
-										"type": "quote",
-										"entries": [
-											"The Company of the Black Moon—they used to be adventurers loyal to the realm. Now they roam the woods as a pack of werewolves. The king has promised estates, titles, and gold to anyone who can undo the curse afflicting them. I, for one, have no interest in such rewards."
-										],
-										"by": "Thornstaff, elf druid"
-									}
-								]
-							}
-						]
-					},
-					{
-						"type": "section",
-						"name": "Lycanthropes",
-						"entries": [
-							"One of the most ancient and feared of all curses, lycanthropy can transform the most civilized humanoid into a ravening beast. In its natural humanoid form, a creature cursed by lycanthropy appears as its normal self. Over time, however, many lycanthropes acquire features suggestive of their animal form. In that animal form, a lycanthrope resembles a powerful version of a normal animal. On close inspection, its eyes show a faint spark of unnatural intelligence and might glow red in the dark.",
-							"Evil lycanthropes hide among normal folk, emerging in animal form at night to spread terror and bloodshed, especially under a full moon. Good lycanthropes are reclusive and uncomfortable around other civilized creatures, often living alone in wilderness areas far from villages and towns.",
-							{
-								"type": "entries",
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Curse of Lycanthropy",
-										"entries": [
-											"A humanoid creature can be afflicted with the curse of lycanthropy after being wounded by a lycanthrope, or if one or both of its parents are lycanthropes. A {@spell remove curse} spell can rid an afflicted lycanthrope of the curse, but a natural born lycanthrope can be freed of the curse only with a wish.",
-											"A lycanthrope can either resist its curse or embrace it. By resisting the curse, a lycanthrope retains its normal alignment and personality while in humanoid form. It lives its life as it always has, burying deep the bestial urges raging inside it. However, when the full moon rises, the curse becomes too strong to resist, transforming the individual into its beast form-or into a horrible hybrid form that combines animal and humanoid traits. When the moon wanes, the beast within can be controlled once again. Especially if the cursed creature is unaware of its condition, it might not remember the events of its transformation, though those memories often haunt a lycanthrope as bloody dreams.",
-											"Some individuals see little point in fighting the curse and accept what they are. With time and experience, they learn to master their shapechanging ability and can assume beast form or hybrid form at will. Most lycanthropes that embrace their bestial natures succumb to bloodlust, becoming evil, opportunistic creatures that prey on the weak."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Dire Lycanthropes",
-										"entries": [
-											"A natural variant of the lycanthrope, a dire lycanthrope's animal form is the ancient dire version of the normal lycanthrope's animal form, and the hybrid form is always the same size as the animal form. A dire lycanthrope can manifest as the offspring of a powerful lycanthrope or from those bitten by a dire lycanthrope. Dire lycanthrope are more resistant to magic and silver than their normal counter-parts, their hides are thicker, their bodies tougher, and their cursed attacks are naturally considered magic and silvered attacks. They maintain their ability to speak in their animal form, as well as gain the ability to speak with members of their animal form's species."
-										]
-									}
-								]
-							},
-							{
-								"type": "inset",
-								"name": "Player Characters as Dire Lycanthropes",
-								"entries": [
-									"A character who becomes a dire lycanthrope retains their statistics except as specified by dire lycanthrope type. The character gains the dire lycanthrope's speeds in non-humanoid form, damage immunities, damage resistances, traits, and actions that don't involve equipment. The character is proficient with the lycanthrope's natural attacks, such as its bite or claws, which deal damage as shown in the lycanthrope's statistics, and their curse carrying attacks count as both magical and silvered for the purpose of overcoming resistance and immunity to nonmagical or silvered attacks and damage. The character can speak while in animal form.",
-									"A non-lycanthrope humanoid hit by an attack that carries the curse of lycanthropy must succeed on a Constitution saving throw (DC 8 + the lycanthrope's proficiency bonus + the lycanthrope's Constitution modifier) or be cursed. If the character embraces the curse, his or her alignment becomes the one defined for the lycanthrope. The DM is free to decide that a change in alignment places the character under DM control until the curse of lycanthropy is removed.",
-									"The following information applies to specific dire lycanthropes.",
-									{
-										"type": "entries",
-										"entries": [
-											{
-												"type": "entries",
-												"name": "{@creature Dire Werebear}",
-												"entries": [
-													"The character gains a Strength of 19 if his or her score isn't already higher, darkvision out to 60 ft, and a +2 bonus to AC while in dire bear or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "{@creature Dire Wereboar}",
-												"entries": [
-													"The character gains a Strength of 17 if his or her score isn't already higher, and a +2 bonus to AC while in dire boar or hybrid form (from natural armor). Attack and damage rolls for the tusks are based on Strength. For the Charge trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "{@creature Dire Wererat}",
-												"entries": [
-													"The character gains a Dexterity of 15 if his or her score isn't already higher. Attack and damage rolls for the bite are based on whichever is higher of the character's Strength and Dexterity."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "{@creature Dire Weretiger}",
-												"entries": [
-													"The character gains a Strength of 17 if his or her score isn't already higher, and darkvision out to 60 ft. Attack and damage rolls for the natural weapons are based on Strength. For the Pounce trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
-												]
-											},
-											{
-												"type": "entries",
-												"name": "{@creature Dire Werewolf}",
-												"entries": [
-													"The character gains a Strength of 15 if his or her score isn't already higher, darkvision out to 30 ft, and a +2 bonus to AC while in dire wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
-												]
-											}
-										]
-									}
-								]
-							}
-						]
-					}
-				],
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "internal",
-							"path": "bestiary/MM/Werewolf.webp"
-						}
-					}
-				]
-			},
-			"uniqueId": "eb529dde-ab48-45a5-aefc-7f2540014b6b",
-			"languages": [
-				"Common"
-			],
-			"languageTags": [
-				"C"
-			],
-			"resist": [
+				"CNS"
+			]
+		},
+		{
+			"name": "Emerald of the Barded Shapechanger",
+			"source": "FHR",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+					"Etched with druidic runes, this 2-inch-diameter uncut emerald causes any armor or barding you wear to adjust to fit any form and size you take, while also preventing it from melding into your new form. Armor or barding worn retain all properties in the new form.",
+					"For this property to work, you must attach the emerald to your body by pressing the emerald against your skin for at least 10 minutes. Thereafter, the emerald can't be removed unless you detach it as an action or the emerald is severed from your main body. Not even an {@spell antimagic field} causes it to fall off. The emerald does fall off if your attunement to it ends. Armor or barding returns to its original size and shape when removed from you when your attunement to the emerald ends, and armor or barding that you cannot wear falls off."
+			]
+		},
+		{
+			"name": "Alchemy Jug (Sapphire)",
+			"source": "FHR",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"weight": 12,
+			"entries": [
+				"This ceramic jug appears to be able to hold a gallon of liquid and weighs 12 pounds whether full or empty. Sloshing sounds can be heard from within the jug when it is shaken, even if the jug is empty.",
+				"You can use an action and name one liquid from the table below to cause the jug to produce the chosen liquid. Afterward, you can uncork the jug as an action and pour that liquid out, up to 2 gallons per minute. The maximum amount of liquid the jug can produce depends on the liquid you named.",
+				"Once the jug starts producing a liquid, it can't produce a different one, or more of one that has reached its maximum, until the next dawn.",
 				{
-					"resist": [
-						"bludgeoning",
-						"piercing",
-						"slashing"
+					"type": "table",
+					"colStyles": [
+						"col-6 text-center",
+						"col-6 text-center"
 					],
-					"note": "from attacks that aren't magical and silvered",
-					"cond": true
+					"colLabels": [
+						"Liquid",
+						"Max Amount"
+					],
+					"rows": [
+						[
+							"Beer",
+							"4 gallons"
+						],
+						[
+							"Boiling Hot Tea",
+							"1 quart"
+						],
+						[
+							"Honey",
+							"1 gallon"
+						],
+						[
+							"Mayonnaise",
+							"2 gallons"
+						],
+						[
+							"Oil",
+							"1 quart"
+						],
+						[
+							"Soy Sauce",
+							"1 gallon"
+						],
+						[
+							"Vinegar",
+							"2 gallons"
+						],
+						[
+							"Wine (Fine or Common)",
+							"2 gallons"
+						]
+					]
 				}
 			],
-			"senses": [
-				"darkvision 30 ft."
-			],
-			"senseTags": [
-				"D"
-			],
-			"tokenHref": {
-				"type": "external",
-				"url": "https://i.imgur.com/4BLo6Ka.png"
-			},
-			"damageTags": [
-				"P",
-				"S"
-			],
-			"savingThrowForced": [
-				"constitution"
+			"miscTags": [
+				"CF/W"
+			]
+		},
+		{
+			"name": "Amethyst of the Sizeshifter's Weapon",
+			"source": "FHR",
+			"rarity": "uncommon",
+			"reqAttune": true,
+			"wondrous": true,
+			"entries": [
+				"Etched with primordial runes, this 1-inch-diameter uncut amethyst allows you to use an action to adjust how a {@filter simple or martial weapon|items|type=simple weapon;martial weapon|category=} is sized.",
+				"For this property to work, you must attach the amethyst to the weapon by pressing the amethyst against it for at least 10 minutes. Weapons with the amethyst attached are immune to other effects that change how the weapon is sized. Thereafter, the amethyst can't be removed unless you detach it as an action or the item is destroyed. Not even an {@spell antimagic field} causes it to fall off. The amethyst does fall off the weapon if your attunement to the amethyst ends. A weapon returns to its original size if the amethyst is no longer attached to it."
 			]
 		}
 	]
