@@ -8,8 +8,7 @@
 				"version": "1.0.0",
 				"url": "https://github.com/TheGiddyLimit/homebrew",
 				"authors": [
-					"Fayvira",
-					"dandwiki.com"
+					"Fayvira"
 				],
 				"convertedBy": [
 					"Fayvira"
@@ -17,7 +16,7 @@
 			}
 		],
 		"dateAdded": 1724529310,
-		"dateLastModified": 1726520842
+		"dateLastModified": 1727748586
 	},
 	"itemProperty": [
 		{
@@ -34,19 +33,6 @@
 			]
 		},
 		{
-			"abbreviation": "GloveFHR",
-			"source": "FHR",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Glove",
-					"entries": [
-						"A glove weapon is worn on your hand or forearm, and you cannot be disarmed of it. You can hold objects, wield weapons, and cast spells with a hand fitted with a glove weapon, but you can only attack with the glove weapon if that hand is unoccupied. It takes a Use an Object action to don or doff a glove weapon."
-					]
-				}
-			]
-		},
-		{
 			"abbreviation": "UnarmedFHR",
 			"source": "FHR",
 			"entries": [
@@ -55,19 +41,6 @@
 					"name": "Unarmed",
 					"entries": [
 						"Weapon attacks made with an unarmed weapon count as unarmed strikes."
-					]
-				}
-			]
-		},
-		{
-			"abbreviation": "WrapFHR",
-			"source": "FHR",
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Wrap",
-					"entries": [
-						"A wrap weapon is a type glove weapon that can be either worn on your foot or hand, because it is comprised of strips that are wrapped around the appendage. You can only hold objects, wield weapons, and cast spells with a foot fitted with a wrap weapon, if you could already do those things with your foot, and you can also only attack with the wrap weapon if that foot is unoccupied. It takes a minute to don or doff a wrap weapon."
 					]
 				}
 			]
@@ -83,15 +56,13 @@
 			"value": 200,
 			"weaponCategory": "simple",
 			"property": [
-				"UnarmedFHR",
-				"V"
+				"UnarmedFHR"
 			],
 			"dmg1": "1d4",
 			"dmgType": "B",
-			"dmg2": "1d6",
 			"weapon": true,
 			"entries": [
-				"This held weapon is a single piece of metal or stone with holes or a grip designed to be worn around the knuckles of a humanoid hand. In order to use the versatile property of this weapon, then you must use a pair of them, one in each hand."
+				"This held weapon is a single piece of metal or stone with holes or a grip designed to be worn around the knuckles of a humanoid hand.
 			]
 		},
 		{
@@ -104,9 +75,7 @@
 			"weaponCategory": "simple",
 			"property": [
 				"FierceFHR",
-				"GloveFHR",
-				"UnarmedFHR",
-				"WrapFHR"
+				"UnarmedFHR"
 			],
 			"dmg1": "1d4",
 			"dmgType": "B",
@@ -125,15 +94,13 @@
 			"weaponCategory": "simple",
 			"property": [
 				"FierceFHR",
-				"GloveFHR",
-				"UnarmedFHR",
-				"WrapFHR"
+				"UnarmedFHR"
 			],
 			"dmg1": "1d4",
 			"dmgType": "P",
 			"weapon": true,
 			"entries": [
-				"A set of reinforced leather strips, with embedded sharp spikes, to be tightly bound around foot or hand, which protect the knuckles or foot and transforms mere punches or kicks into lethal stabs."
+				"A set of leather strips, with embedded sharp spikes, to be tightly bound around foot or hand, which protect the knuckles or foot and transforms mere punches or kicks into lethal stabs."
 			]
 		},
 		{
@@ -146,15 +113,13 @@
 			"weaponCategory": "simple",
 			"property": [
 				"FierceFHR",
-				"GloveFHR",
-				"UnarmedFHR",
-				"WrapFHR"
+				"UnarmedFHR"
 			],
 			"dmg1": "1d4",
 			"dmgType": "S",
 			"weapon": true,
 			"entries": [
-				"A set of reinforced leather strips, with an embedded sharp blade, to be tightly bound around foot or hand, which protect the knuckles or foot and transforms mere punches or kicks into lethal slashes."
+				"A set of leather strips, with an embedded sharp blade, to be tightly bound around foot or hand, which protect the knuckles or foot and transforms mere punches or kicks into lethal lacerations."
 			]
 		}
 	]
